@@ -102,7 +102,7 @@ def extract_listing_details(link):
         print(f"Failed to retrieve listing page: {link}. Status code: {response.status_code}")
 
 # Loop through the first few links and extract details
-for link in listing_links[:40]:
+for link in listing_links:
     extract_listing_details(link)
 
 # Create a DataFrame to store the extracted data
