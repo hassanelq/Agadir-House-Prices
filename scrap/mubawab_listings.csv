@@ -1,4 +1,4 @@
-Type,Quartier,Price,Area,Rooms,Bedrooms,Bathrooms,Status,Standing,Property State,Ascenseur,Garage,Jardin,Piscine,Cuisine équipée,Vue sur mer
+Type,Quartier,Price,Area,Rooms,Bedrooms,Bathrooms,Status,Standing,Property_State,Ascenseur,Garage,Jardin,Piscine,Cuisine_equiped,Vue_sur_mer
 Appartement,Hay Houda,966000,84,4,3,2,Nouveau,Moyen standing,0,0,0,0,1,1,0
 Appartement,Hay Houda,549000,58,3,2,2,Nouveau,Moyen standing,0,0,0,0,0,1,0
 Appartement,Hay Houda,624000,65,3,2,2,Nouveau,Moyen standing,0,0,0,0,0,1,0
