@@ -133,16 +133,12 @@ Appartement,Tilila,840000.0,78.0,3.0,3,2,Nouveau,0,0,0,0,10769.23076923077
 Appartement,Hay Houda,800000.0,93.0,6.0,2,2,Bon état,10-20 ans,0,0,0,8602.150537634408
 Appartement,Hay Mohammadi,1200000.0,86.0,4.0,3,2,Nouveau,Moins d'un an,0,0,1,13953.488372093023
 Appartement,Secteur Touristique,3400000.0,146.0,8.0,3,2,Bon état,1-5 ans,1,1,0,23287.671232876713
-Maison,Boutchakat,2500000.0,210.0,6.0,3,2,Bon état,20-30 ans,0,0,1,11904.761904761905
 Appartement,Founti,1700000.0,89.0,1.0,2,2,Bon état,1-5 ans,1,1,1,19101.123595505618
 Appartement,Zone Industrielle Agadir,1357000.0,192.0,3.0,2,2,Nouveau,Moins d'un an,0,0,1,7067.708333333333
 Maison,Ben Serguaou,1800000.0,110.0,7.0,5,4,À rénover,30-50 ans,0,0,0,16363.636363636364
 Appartement,Hay Salam,560000.0,52.0,3.0,3,1,Nouveau,0,0,0,0,10769.23076923077
 Appartement,Hay Mohammadi,960000.0,96.0,2.0,2,2,Bon état,5-10 ans,0,1,1,10000.0
 Maison,Lekhiam,1250000.0,80.0,8.0,6,3,À rénover,5-10 ans,1,0,1,15625.0
-Appartement,Port,2100000.0,124.0,5.0,2,2,Nouveau,Moins d'un an,1,1,0,16935.483870967742
-Appartement,Boutchakat,1260000.0,96.0,1.0,3,2,Bon état,5-10 ans,0,0,0,13125.0
-Appartement,Port,2200000.0,130.0,5.0,2,2,Bon état,1-5 ans,1,1,1,16923.076923076922
 Appartement,Hay Mohammadi,380000.0,52.0,3.0,2,1,Bon état,5-10 ans,1,0,1,7307.692307692308
 Appartement,Hay Salam,560000.0,100.0,3.0,4,2,Nouveau,Moins d'un an,0,0,0,5600.0
 Maison,Haut Anza,960000.0,203.0,2.0,5,3,Nouveau,1-5 ans,0,0,0,4729.064039408867
@@ -312,7 +308,6 @@ Appartement,Founti,1500000.0,107.0,1.0,3,2,Bon état,1-5 ans,0,1,0,14018.6915887
 Appartement,Riad Salam,700000.0,74.0,3.0,2,1,Bon état,10-20 ans,0,0,0,9459.45945945946
 Maison,Abattoirs,725533.3333333334,150.0,1.0,3,2,Bon état,5-10 ans,0,0,0,4836.88888888889
 Appartement,Hay Mohammadi,950000.0,93.0,3.0,2,2,Bon état,5-10 ans,0,1,1,10215.053763440861
-Maison,Assaka,25424036.666666668,99.0,12.0,5,3,Bon état,5-10 ans,1,0,1,256808.45117845119
 Appartement,Secteur Touristique,1750000.0,95.0,2.0,1,2,Bon état,20-30 ans,0,1,1,18421.052631578947
 Appartement,Founti,2600000.0,120.0,3.0,2,2,Nouveau,Moins d'un an,0,0,1,21666.666666666668
 Appartement,Hay Salam,440000.0,65.0,2.0,2,1,Bon état,10-20 ans,0,0,0,6769.2307692307695
@@ -367,7 +362,6 @@ Appartement,Hay Salam,1650000.0,122.0,4.0,3,2,Bon état,10-20 ans,0,0,0,13524.59
 Appartement,Ville Nouvelle,1400000.0,195.0,6.0,4,3,Bon état,1-5 ans,1,0,0,7179.48717948718
 Appartement,Anza,650000.0,60.0,2.0,1,1,Nouveau,1-5 ans,0,0,0,10833.333333333334
 Appartement,Hay Mohammadi,1950000.0,150.0,4.0,4,3,Nouveau,10-20 ans,0,0,0,13000.0
-Appartement,Laazib,1130495.5998540753,60.0,1.0,1,1,Nouveau,0,0,0,0,18841.593330901254
 Appartement,Al Wifaq,900000.0,98.0,1.0,3,2,Nouveau,1-5 ans,0,0,1,9183.673469387755
 Appartement,Riad Salam,1500000.0,94.0,4.0,4,2,Bon état,1-5 ans,1,0,1,15957.446808510638
 Maison,Secteur Touristique,3600000.0,51.0,1.0,5,3,Nouveau,0,0,0,0,70588.23529411765
@@ -451,7 +445,6 @@ Appartement,Hay Mohammadi,1050000.0,102.0,3.0,2,2,Bon état,5-10 ans,0,1,1,10294
 Appartement,Hay Mohammadi,1250000.0,156.0,5.0,3,2,Nouveau,5-10 ans,0,0,1,8012.820512820513
 Appartement,Ville Nouvelle,5970000.0,115.0,3.0,2,2,Bon état,1-5 ans,0,0,1,51913.04347826087
 Appartement,Hay Mohammadi,690000.0,250.0,3.0,3,2,Nouveau,0,0,0,0,2760.0
-Appartement,Hay Hassani,950000.0,88.0,4.0,2,2,Bon état,5-10 ans,0,0,1,10795.454545454546
 Appartement,Haut Founty,1130000.0,78.0,3.0,2,1,Nouveau,Moins d'un an,0,0,0,14487.179487179486
 Appartement,Hay Salam,550000.0,60.0,3.0,2,1,Bon état,10-20 ans,1,0,1,9166.666666666666
 Appartement,Hay Houda,950000.0,105.0,3.0,2,2,Bon état,10-20 ans,0,0,0,9047.619047619048
@@ -490,7 +483,6 @@ Appartement,Hay Salam,520000.0,70.0,1.0,2,1,Bon état,30-50 ans,1,0,1,7428.57142
 Appartement,Hay Mohammadi,680000.0,60.0,3.0,2,1,Nouveau,1-5 ans,1,1,1,11333.333333333334
 Appartement,Secteur Touristique,1650000.0,96.0,3.0,2,1,Bon état,20-30 ans,0,0,1,17187.5
 Villa,Charaf,2300000.0,160.0,4.0,3,2,Bon état,20-30 ans,0,0,1,14375.0
-Appartement,Hay Hassani,950000.0,82.0,3.0,2,2,Bon état,20-30 ans,0,0,1,11585.365853658537
 Appartement,Hay Dakhla,770000.0,76.0,3.0,2,1,Bon état,5-10 ans,1,0,1,10131.578947368422
 Maison,Hay Dakhla,6000000.0,660.0,16.0,8,8,Bon état,20-30 ans,0,0,0,9090.90909090909
 Appartement,Hay Salam,540000.0,63.0,3.0,2,1,Bon état,10-20 ans,0,0,1,8571.42857142857
@@ -617,7 +609,6 @@ Appartement,Hay Salam,640000.0,66.0,6.0,2,1,À rénover,10-20 ans,1,0,1,9696.969
 Appartement,Abattoirs,1070000.0,100.0,4.0,4,2,Nouveau,0,0,0,0,10700.0
 Appartement,Hay Mohammadi,630000.0,65.0,3.0,2,1,Bon état,5-10 ans,0,0,0,9692.307692307691
 Appartement,Secteur Touristique,1490000.0,136.0,3.0,2,3,Bon état,5-10 ans,0,0,0,10955.882352941177
-Appartement,Hay Zaytoun,460000.0,59.0,1.0,2,1,Nouveau,0,0,0,0,7796.610169491525
 Appartement,Hay Mohammadi,680000.0,65.0,3.0,3,2,Bon état,1-5 ans,0,0,1,10461.538461538461
 Appartement,Haut Founty,1200000.0,78.0,3.0,2,1,Nouveau,Moins d'un an,0,0,1,15384.615384615385
 Maison,Secteur Touristique,2100000.0,144.0,9.0,7,3,À rénover,5-10 ans,1,0,1,14583.333333333334
@@ -663,7 +654,6 @@ Maison,Abattoirs,751600.0,66.0,1.0,1,1,À rénover,5-10 ans,1,0,0,11387.87878787
 Appartement,Hay Mohammadi,490000.0,75.0,3.0,2,1,Bon état,1-5 ans,0,0,0,6533.333333333333
 Villa,Ben Serguaou,270000.0,160.0,5.0,3,2,Bon état,5-10 ans,1,1,1,1687.5
 Appartement,Hay Salam,650000.0,64.0,1.0,2,1,Bon état,1-5 ans,1,0,0,10156.25
-Appartement,Assaka,750000.0,71.0,3.0,2,1,Bon état,5-10 ans,0,0,0,10563.38028169014
 Appartement,Hay Dakhla,1050900.0,113.0,3.0,2,2,Bon état,5-10 ans,0,0,0,9300.0
 Appartement,Amsernate,1600000.0,152.0,4.0,3,2,Bon état,5-10 ans,1,0,0,10526.315789473685
 Appartement,Bouargane,840000.0,102.0,3.0,2,1,Bon état,10-20 ans,0,0,0,8235.29411764706
@@ -699,12 +689,10 @@ Maison,Al Wifaq,1950000.0,350.0,10.0,6,4,Bon état,10-20 ans,0,0,1,5571.42857142
 Appartement,Riad Salam,960000.0,120.0,3.0,3,2,Bon état,20-30 ans,0,0,0,8000.0
 Appartement,Secteur Touristique,2200000.0,137.0,8.0,3,2,Bon état,5-10 ans,0,0,1,16058.39416058394
 Villa,Haut Founty,3900000.0,240.0,8.0,5,4,Bon état,5-10 ans,1,0,1,16250.0
-Appartement,Port,2000000.0,75.0,2.0,1,2,Bon état,10-20 ans,1,1,1,26666.666666666668
 Appartement,Tilila,750000.0,62.0,6.0,2,2,Nouveau,0,0,0,0,12096.774193548386
 Appartement,Founti,1800000.0,93.0,3.0,2,2,Bon état,1-5 ans,0,1,1,19354.83870967742
 Maison,Tikiouine,800000.0,50.0,4.0,4,4,Bon état,5-10 ans,1,0,1,16000.0
 Villa,Cité Adrar,1550000.0,81.0,5.0,5,5,Nouveau,0,0,0,0,19135.802469135804
-Maison,Agadir Oufella,1350000.0,100.0,2.0,4,4,Bon état,20-30 ans,0,0,0,13500.0
 Appartement,Hay Salam,650000.0,62.0,3.0,2,1,Nouveau,Moins d'un an,1,0,1,10483.870967741936
 Appartement,Bouargane,1500000.0,121.0,2.0,3,1,Bon état,20-30 ans,0,0,1,12396.694214876034
 Appartement,Hay Najah,2150000.0,147.0,5.0,3,3,Bon état,5-10 ans,1,0,1,14625.850340136054
@@ -732,7 +720,6 @@ Appartement,Al Wifaq,480000.0,58.0,3.0,2,1,Nouveau,Moins d'un an,1,0,1,8275.8620
 Appartement,Hay Mohammadi,920000.0,97.0,3.0,2,2,Nouveau,1-5 ans,0,0,1,9484.536082474227
 Appartement,Hay Mohammadi,630000.0,64.0,5.0,2,1,Nouveau,Moins d'un an,0,0,1,9843.75
 Maison,Abattoirs,1200000.0,655.0,6.0,4,2,À rénover,5-10 ans,1,0,0,1832.0610687022902
-Appartement,Agadir Oufella,900000.0,72.0,2.0,2,2,Bon état,Moins d'un an,0,0,1,12500.0
 Maison,Anza,85000000.0,104.0,6.0,3,3,Nouveau,1-5 ans,0,0,0,817307.6923076923
 Appartement,Al Wifaq,430000.0,82.0,1.0,2,1,Nouveau,1-5 ans,0,0,0,5243.90243902439
 Appartement,Hay Houda,380000.0,49.0,3.0,2,1,Nouveau,5-10 ans,0,0,0,7755.102040816327
@@ -771,7 +758,6 @@ Appartement,Hay Mohammadi,600000.0,64.0,3.0,3,2,Bon état,5-10 ans,0,0,0,9375.0
 Appartement,Hay Massira,920000.0,86.0,1.0,2,2,Bon état,20-30 ans,0,0,0,10697.67441860465
 Appartement,Anza,900000.0,73.0,4.0,2,2,Nouveau,1-5 ans,0,0,0,12328.767123287671
 Villa,Hay Najah,4000000.0,300.0,6.0,4,3,Nouveau,1-5 ans,1,0,1,13333.333333333334
-Maison,Ihchach,830000.0,85.0,3.0,2,1,À rénover,50-70 ans,0,0,0,9764.70588235294
 Appartement,Cité Adrar,450000.0,45.0,3.0,2,1,Nouveau,10-20 ans,0,0,0,10000.0
 Appartement,Hay Mohammadi,630000.0,64.0,3.0,2,2,Nouveau,Moins d'un an,0,0,1,9843.75
 Villa,Hay Dakhla,2600000.0,222.0,6.0,4,2,Bon état,20-30 ans,1,0,0,11711.711711711712
