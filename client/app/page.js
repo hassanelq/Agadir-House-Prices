@@ -1,4 +1,7 @@
 import Image from "next/image";
+import CheckBox from "./components/checkBox";
+
+const Proprieties = ["Location", "Surface", "Rooms", "Bathrooms"];
 
 export default function Home() {
   return (
@@ -6,16 +9,18 @@ export default function Home() {
       <h1 className="text-4xl font-bold">Your house dream pridected price</h1>
       <ul className="p-6 flex flex-col items-center justify-center">
         <li className="flex items-center">
-          <p>Location</p>
-          <input type="text" className="p-2 m-2" />
+          <div className="flex flex-col text-left">
+            <p>Location</p>
+            <p>Location</p>
+          </div>
+          <input className="" max="100" min="0" type="range"></input>
         </li>
         <li className="flex items-center">
           <p>Location</p>
           <input type="text" className="p-2 m-2" />
         </li>
-        <li className="flex items-center">
-          <p>Location</p>
-          <input type="text" className="p-2 m-2" />
+        <li>
+          <CheckBox propriety={Proprieties[0]} />
         </li>
       </ul>
     </main>
