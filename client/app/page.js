@@ -1,12 +1,10 @@
-import Image from "next/image";
 import CheckBox from "./components/checkBox";
-
 const Proprieties = ["Location", "Surface", "Rooms", "Bathrooms"];
 
 export default function Home() {
   return (
     <main className="flex flex-col h-screen items-center justify-center p-24">
-      <h1 className="text-4xl font-bold">Your house dream pridected price</h1>
+      <h1 className="text-4xl font-bold">Your house dream predicted price</h1>
       <ul className="p-6 flex flex-col items-center justify-center">
         <li className="flex items-center">
           <div className="flex flex-col text-left">
