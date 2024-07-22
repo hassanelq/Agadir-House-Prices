@@ -12,6 +12,8 @@ __model = None
 def get_estimated_price(location, type, status, property_state, area, rooms, bedrooms, bathrooms, jardin, piscine, cuisine_equiped):
     if __data_columns is None:
         raise ValueError("Data columns are not loaded. Please check if load_saved_artifacts() has been called.")
+    if __model is None:
+        raise ValueError("Model is not loaded. Please check if load_saved_artifacts() has been called.")
 
     try:
         print("Received in get_estimated_price:")
@@ -87,6 +89,7 @@ def load_saved_artifacts():
             print("Model loaded successfully")
         except Exception as e:
             print(f"Error loading model: {e}")
+            __model = None
 
     print("loading saved artifacts...done")
 
@@ -95,4 +98,7 @@ def get_data_columns():
 
 if __name__ == '__main__':
     load_saved_artifacts()
-    print(get_estimated_price('tilila','appartement','nouveau', '1-5 ans', 100, 3, 2, 2, 0, 0, 0), "DH")
+    try:
+        print(get_estimated_price('tilila','appartement','nouveau', '1-5 ans', 100, 3, 2, 2, 0, 0, 0), "DH")
+    except ValueError as e:
+        print(e)
