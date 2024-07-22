@@ -11,10 +11,13 @@ __model = None
 
 def get_estimated_price(location, type, status, property_state, area, rooms, bedrooms, bathrooms, jardin, piscine, cuisine_equiped):
     try:
+        print("Received in get_estimated_price:")
+        print(f"location={location}, type={type}, status={status}, property_state={property_state}, area={area}, rooms={rooms}, bedrooms={bedrooms}, bathrooms={bathrooms}, jardin={jardin}, piscine={piscine}, cuisine_equiped={cuisine_equiped}")
+        
         loc_index = __data_columns.index(location.lower())
     except:
         loc_index = -1
-        
+    
     try:
         type_index = __data_columns.index(type.lower())
     except:
@@ -47,12 +50,15 @@ def get_estimated_price(location, type, status, property_state, area, rooms, bed
         x[status_index] = 1
     if property_state_index >= 0:
         x[property_state_index] = 1
-
-    return __model.predict([x])[0][0].astype(int)
+    
+    print(f"Prepared input vector for model: {x}")
+    prediction = __model.predict([x])
+    print(f"Model prediction: {prediction}")
+    return prediction[0][0].astype(int)
 
 def load_saved_artifacts():
     print("loading saved artifacts...start")
-    global  __data_columns
+    global __data_columns
     global __locations
     global __types
     global __status
@@ -70,6 +76,9 @@ def load_saved_artifacts():
         with open('./artifacts/Agadir_home_prices_model.pickle', 'rb') as f:
             __model = pickle.load(f)
     print("loading saved artifacts...done")
+
+def get_data_columns():
+    return __data_columns
 
 if __name__ == '__main__':
     load_saved_artifacts()
