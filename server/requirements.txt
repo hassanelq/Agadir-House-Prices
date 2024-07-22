@@ -1,4 +1,4 @@
 Flask
 numpy
-pickle5
+pickle
 gunicorn
