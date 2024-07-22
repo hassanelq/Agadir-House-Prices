@@ -59,7 +59,7 @@ def get_estimated_price(location, type, status, property_state, area, rooms, bed
     print(f"Prepared input vector for model: {x}")
     prediction = __model.predict([x])
     print(f"Model prediction: {prediction}")
-    return prediction[0][0].astype(int)
+    return prediction[0].astype(int)
 
 def load_saved_artifacts():
     print("loading saved artifacts...start")
@@ -71,7 +71,8 @@ def load_saved_artifacts():
 
     try:
         with open("./artifacts/columns.json", "r") as f:
-            __data_columns = json.load(f)['data_columns']
+            data = json.load(f)
+            __data_columns = data.get('data_columns', None)
             __locations = __data_columns[20:]
             __types = __data_columns[7:10]
             __status = __data_columns[10:13]
