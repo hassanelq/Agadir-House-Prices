@@ -6,17 +6,18 @@ app = Flask(__name__)
 @app.route('/predict-home-price', methods=['POST'])
 def predict_home_price():
     try:
-        location = request.form['location']
-        type = request.form['type']
-        status = request.form['status']
-        property_state = request.form['property_state']
-        area = float(request.form['area'])
-        rooms = int(request.form['rooms'])
-        bedrooms = int(request.form['bedrooms'])
-        bathrooms = int(request.form['bathrooms'])
-        jardin = int(request.form['jardin'])
-        piscine = int(request.form['piscine'])
-        cuisine_equiped = int(request.form['cuisine_equiped'])
+        data = request.get_json()
+        location = data['location']
+        type = data['type']
+        status = data['status']
+        property_state = data['property_state']
+        area = float(data['area'])
+        rooms = int(data['rooms'])
+        bedrooms = int(data['bedrooms'])
+        bathrooms = int(data['bathrooms'])
+        jardin = int(data['jardin'])
+        piscine = int(data['piscine'])
+        cuisine_equiped = int(data['cuisine_equiped'])
 
         print(f"Received data: location={location}, type={type}, status={status}, property_state={property_state}, area={area}, rooms={rooms}, bedrooms={bedrooms}, bathrooms={bathrooms}, jardin={jardin}, piscine={piscine}, cuisine_equiped={cuisine_equiped}")
 
