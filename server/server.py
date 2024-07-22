@@ -3,42 +3,6 @@ import util
 
 app = Flask(__name__)
 
-@app.route('/get-location-names', methods=['GET'])
-def get_location_names():
-    response = jsonify({
-        'locations': util.get_location_names()
-    })
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    
-    return response
-
-@app.route('/get-types', methods=['GET'])
-def get_types():
-    response = jsonify({
-        'types': util.get_types()
-    })
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    
-    return response
-
-@app.route('/get-status', methods=['GET'])
-def get_status():
-    response = jsonify({
-        'status': util.get_status()
-    })
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    
-    return response
-
-@app.route('/get-property-states', methods=['GET'])
-def get_property_states():
-    response = jsonify({
-        'property_states': util.get_property_states()
-    })
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    
-    return response
-
 @app.route('/predict-home-price', methods=['POST'])
 def predict_home_price():
     try:
@@ -58,8 +22,7 @@ def predict_home_price():
 
         estimated_price = util.get_estimated_price(location, type, status, property_state, area, rooms, bedrooms, bathrooms, jardin, piscine, cuisine_equiped)
         
-        # Ensure estimated_price is a standard Python type
-        estimated_price = int(estimated_price)  # or int(estimated_price) based on your requirement
+        estimated_price = int(estimated_price) 
 
         response = jsonify({
             'estimated_price': estimated_price

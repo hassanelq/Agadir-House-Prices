@@ -1,10 +1,15 @@
 "use client";
-import React, { useState, useEffect } from "react";
+// Components
+import React, { useState } from "react";
 import Input from "./Input";
 import RadioGroup from "./RadioGroup";
 import Select from "./Select";
 import Checkbox from "./CheckBox";
+
+//Api
 import { predictHomePrice } from "../utils/api";
+
+// Data
 import locations from "../data/locations";
 import proprietyOptions from "../data/proprietyOptions";
 import statusOptions from "../data/statusOptions";
@@ -15,29 +20,29 @@ const Form = () => {
   const [rooms, setRooms] = useState(2);
   const [bathrooms, setBathrooms] = useState(2);
   const [bedrooms, setBedrooms] = useState(2);
-  const [location, setLocation] = useState("abattoirs");
+  const [location, setLocation] = useState(locations[0]);
   const [jardin, setJardin] = useState(false);
   const [cuisineEquipped, setCuisineEquipped] = useState(false);
   const [piscine, setPiscine] = useState(false);
-  const [type, setType] = useState("appartement");
-  const [status, setStatus] = useState("nouveau");
-  const [propriety, setPropriety] = useState("moins d'un an");
+  const [type, setType] = useState(typesOptions[0]);
+  const [status, setStatus] = useState(statusOptions[0]);
+  const [propriety, setPropriety] = useState(typesOptions[0]);
   const [estimatedPrice, setEstimatedPrice] = useState("");
 
   const handleSubmit = async () => {
     try {
       const data = await predictHomePrice({
-        area,
-        rooms,
-        bathrooms,
-        bedrooms,
         location,
         type,
-        jardin,
-        cuisineEquipped,
-        piscine,
         status,
         propriety,
+        area,
+        rooms,
+        bedrooms,
+        bathrooms,
+        jardin,
+        piscine,
+        cuisineEquipped,
       });
       setEstimatedPrice(data.estimated_price);
     } catch (error) {

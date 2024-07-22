@@ -1,17 +1,17 @@
 export default function handler(req, res) {
   if (req.method === "POST") {
     const {
-      area,
-      rooms,
-      bathrooms,
-      bedrooms,
       location,
       type,
-      jardin,
-      cuisineEquipped,
-      piscine,
       status,
       propriety,
+      area,
+      rooms,
+      bedrooms,
+      bathrooms,
+      jardin,
+      piscine,
+      cuisineEquipped,
     } = req.body;
 
     const estimatedPrice = 100000;

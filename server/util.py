@@ -71,25 +71,9 @@ def load_saved_artifacts():
             __model = pickle.load(f)
     print("loading saved artifacts...done")
 
-def get_location_names():
-    return __locations
-
-def get_types():
-    return __types
-
-def get_status():
-    return __status
-
-def get_property_states():
-    return __property_states
-
 def get_data_columns():
     return __data_columns
 
 if __name__ == '__main__':
     load_saved_artifacts()
-    print(get_location_names())
-    print(get_types())
-    print(get_status())
-    print(get_property_states())
     print(get_estimated_price('tilila','appartement','nouveau', '1-5 ans', 100, 3, 2, 2, 0, 0, 0), "DH")

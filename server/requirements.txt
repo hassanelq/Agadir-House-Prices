@@ -1,0 +1,4 @@
+Flask
+numpy
+pickle5
+gunicorn
