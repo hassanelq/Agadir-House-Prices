@@ -1,10 +1,23 @@
-export default async function handler(req, res) {
+export default function handler(req, res) {
   if (req.method === "POST") {
-    const { sqft, bhk, bathrooms, location } = req.body;
-    // Call your Python API or implement the logic here to get the estimated price
-    const estimated_price = 75; // Example estimated price
-    res.status(200).json({ estimated_price });
+    const {
+      area,
+      rooms,
+      bathrooms,
+      bedrooms,
+      location,
+      type,
+      jardin,
+      cuisineEquipped,
+      piscine,
+      status,
+      propriety,
+    } = req.body;
+
+    const estimatedPrice = 100000;
+
+    res.status(200).json({ estimated_price: estimatedPrice });
   } else {
-    res.status(405).json({ error: "Method not allowed" });
+    res.status(405).end();
   }
 }

@@ -39,8 +39,6 @@ def get_property_states():
     
     return response
 
-
-
 @app.route('/predict-home-price', methods=['POST'])
 def predict_home_price():
     try:
