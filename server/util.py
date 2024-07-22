@@ -73,4 +73,4 @@ def load_saved_artifacts():
 
 if __name__ == '__main__':
     load_saved_artifacts()
-    # print(get_estimated_price('tilila','appartement','nouveau', '1-5 ans', 100, 3, 2, 2, 0, 0, 0), "DH")
+    print(get_estimated_price('tilila','appartement','nouveau', '1-5 ans', 100, 3, 2, 2, 0, 0, 0), "DH")
