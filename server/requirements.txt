@@ -1,4 +1,4 @@
 Flask
 numpy
-gunicorn
 pickle-mixin
+scikit-learn
