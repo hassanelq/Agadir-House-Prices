@@ -1,18 +1,16 @@
 from flask import Flask, request, jsonify
 import pickle
-import json
 import numpy as np
-import os
 
 app = Flask(__name__)
 
-__data_columns = ["area", "rooms", "bedrooms", "bathrooms", "jardin", "piscine", "cuisine_equiped", "appartement", "maison", "villa", "bon \u00e9tat", "nouveau", "\u00e0 r\u00e9nover", "1-5 ans", "10-20 ans", "20-30 ans", "30-50 ans", "5-10 ans", "50-70 ans", "moins d'un an", "abattoirs", "al wifaq", "amicales", "amsernate", "anza", "ben serguaou", "bouargane", "charaf", "cit\u00e9 adrar", "extension dakhla", "founti", "haut anza", "haut founty", "hay al farah", "hay al wafaa", "hay dakhla", "hay houda", "hay massira", "hay mohammadi", "hay najah", "hay qods", "hay salam", "illigh", "lekhiam", "riad salam", "secteur touristique", "siusse", "taddart", "taddart anza", "talborjt", "tikiouine", "tilila", "ville nouvelle", "zone industrielle agadir"]
-__model = None
+__data_columns = ["area", "rooms", "bedrooms", "bathrooms", "jardin", "piscine", "cuisine_equiped", "appartement", "maison", "villa", "bon état", "nouveau", "à rénover", "1-5 ans", "10-20 ans", "20-30 ans", "30-50 ans", "5-10 ans", "50-70 ans", "moins d'un an", "abattoirs", "al wifaq", "amicales", "amsernate", "anza", "ben serguaou", "bouargane", "charaf", "cité adrar", "extension dakhla", "founti", "haut anza", "haut founty", "hay al farah", "hay al wafaa", "hay dakhla", "hay houda", "hay massira", "hay mohammadi", "hay najah", "hay qods", "hay salam", "illigh", "lekhiam", "riad salam", "secteur touristique", "siusse", "taddart", "taddart anza", "talborjt", "tikiouine", "tilila", "ville nouvelle", "zone industrielle agadir"]
+global __model
+model_path = './artifacts/Agadir_home_prices_model.pickle'
+with open(model_path, 'rb') as f:
+    __model = pickle.load(f)
 
 def get_estimated_price(location, type, status, property_state, area, rooms, bedrooms, bathrooms, jardin, piscine, cuisine_equiped):
-    if __model is None:
-        raise Exception("Model is not loaded")
-
     loc_index = __data_columns.index(location.lower()) if location.lower() in __data_columns else -1
     type_index = __data_columns.index(type.lower()) if type.lower() in __data_columns else -1
     status_index = __data_columns.index(status.lower()) if status.lower() in __data_columns else -1
@@ -38,22 +36,6 @@ def get_estimated_price(location, type, status, property_state, area, rooms, bed
 
     return __model.predict([x])[0]
 
-def load_saved_artifacts():
-    global __model
-
-    try:
-        model_path = './artifacts/Agadir_home_prices_model.pickle'
-        # Debugging statements to check paths
-        current_dir = os.getcwd()
-        print(f"Current working directory: {current_dir}")
-        print(f"Model path: {model_path}")
-        print(f"Does the model file exist? {os.path.exists(model_path)}")
-
-        with open(model_path, 'rb') as f:
-            __model = pickle.load(f)
-        print("Model loaded successfully")
-    except Exception as e:
-        print(f"Error loading artifacts: {e}")
 
 @app.route('/predict-home-price', methods=['POST'])
 def predict_home_price():
@@ -89,5 +71,7 @@ def predict_home_price():
         return jsonify({'error': str(e)}), 400
 
 if __name__ == "__main__":
-    load_saved_artifacts()
-    app.run(debug=True)
+    try:
+        app.run(debug=True)
+    except Exception as e:
+        print(f"Failed to start the server: {e}")
