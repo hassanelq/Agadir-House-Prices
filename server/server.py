@@ -5,18 +5,16 @@ app = Flask(__name__)
 
 @app.route('/predict-home-price', methods=['POST'])
 def predict_home_price():
+    data = request.get_json()
+    if data is None:
+        return jsonify({'error': 'Request body is not in JSON format or is empty.'}), 400
+
+    required_fields = ['location', 'type', 'status', 'property_state', 'area', 'rooms', 'bedrooms', 'bathrooms', 'jardin', 'piscine', 'cuisine_equiped']
+    missing_fields = [field for field in required_fields if field not in data]
+    if missing_fields:
+        return jsonify({'error': f'Missing required fields: {", ".join(missing_fields)}'}), 400
+
     try:
-        # Debug print headers and request body
-        print("Headers: ", request.headers)
-        print("Request data: ", request.data)
-
-        # Attempt to get JSON data from the request
-        data = request.get_json()
-        
-        # Check if data is None
-        if data is None:
-            raise ValueError("Request body is not in JSON format or is empty.")
-
         location = data['location']
         type = data['type']
         status = data['status']
@@ -29,27 +27,15 @@ def predict_home_price():
         piscine = int(data['piscine'])
         cuisine_equiped = int(data['cuisine_equiped'])
 
-        print(f"Received data: location={location}, type={type}, status={status}, property_state={property_state}, area={area}, rooms={rooms}, bedrooms={bedrooms}, bathrooms={bathrooms}, jardin={jardin}, piscine={piscine}, cuisine_equiped={cuisine_equiped}")
-
         estimated_price = util.get_estimated_price(location, type, status, property_state, area, rooms, bedrooms, bathrooms, jardin, piscine, cuisine_equiped)
-        
-        estimated_price = int(estimated_price) 
+        estimated_price = int(estimated_price)
 
-        response = jsonify({
-            'estimated_price': estimated_price
-        })
+        response = jsonify({'estimated_price': estimated_price})
         response.headers.add('Access-Control-Allow-Origin', '*')
-
         return response
     except Exception as e:
-        print(f"Error occurred: {e}")
-        response = jsonify({
-            'error': str(e)
-        })
-        response.headers.add('Access-Control-Allow-Origin', '*')
-        return response, 400
+        return jsonify({'error': str(e)}), 400
 
 if __name__ == "__main__":
-    print("Starting Python Flask Server For Home Price Prediction...")
     util.load_saved_artifacts()
     app.run()
