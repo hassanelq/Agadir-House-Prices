@@ -2,13 +2,10 @@ from flask import Flask, request, jsonify
 import pickle
 import json
 import numpy as np
+import os
 
 app = Flask(__name__)
 
-__locations = None
-__types = None
-__status = None
-__property_states = None
 __data_columns = ["area", "rooms", "bedrooms", "bathrooms", "jardin", "piscine", "cuisine_equiped", "appartement", "maison", "villa", "bon \u00e9tat", "nouveau", "\u00e0 r\u00e9nover", "1-5 ans", "10-20 ans", "20-30 ans", "30-50 ans", "5-10 ans", "50-70 ans", "moins d'un an", "abattoirs", "al wifaq", "amicales", "amsernate", "anza", "ben serguaou", "bouargane", "charaf", "cit\u00e9 adrar", "extension dakhla", "founti", "haut anza", "haut founty", "hay al farah", "hay al wafaa", "hay dakhla", "hay houda", "hay massira", "hay mohammadi", "hay najah", "hay qods", "hay salam", "illigh", "lekhiam", "riad salam", "secteur touristique", "siusse", "taddart", "taddart anza", "talborjt", "tikiouine", "tilila", "ville nouvelle", "zone industrielle agadir"]
 __model = None
 
@@ -42,15 +39,17 @@ def get_estimated_price(location, type, status, property_state, area, rooms, bed
     return __model.predict([x])[0]
 
 def load_saved_artifacts():
-    global __data_columns, __locations, __types, __status, __property_states, __model
+    global __model
 
     try:
-        __locations = __data_columns[20:]
-        __types = __data_columns[7:10]
-        __status = __data_columns[10:13]
-        __property_states = __data_columns[13:20]
+        model_path = './artifacts/Agadir_home_prices_model.pickle'
+        # Debugging statements to check paths
+        current_dir = os.getcwd()
+        print(f"Current working directory: {current_dir}")
+        print(f"Model path: {model_path}")
+        print(f"Does the model file exist? {os.path.exists(model_path)}")
 
-        with open('./artifacts/Agadir_home_prices_model.pickle', 'rb') as f:
+        with open(model_path, 'rb') as f:
             __model = pickle.load(f)
         print("Model loaded successfully")
     except Exception as e:
