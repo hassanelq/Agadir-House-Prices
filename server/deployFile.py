@@ -9,12 +9,12 @@ __locations = None
 __types = None
 __status = None
 __property_states = None
-__data_columns = None
+__data_columns = ["area", "rooms", "bedrooms", "bathrooms", "jardin", "piscine", "cuisine_equiped", "appartement", "maison", "villa", "bon \u00e9tat", "nouveau", "\u00e0 r\u00e9nover", "1-5 ans", "10-20 ans", "20-30 ans", "30-50 ans", "5-10 ans", "50-70 ans", "moins d'un an", "abattoirs", "al wifaq", "amicales", "amsernate", "anza", "ben serguaou", "bouargane", "charaf", "cit\u00e9 adrar", "extension dakhla", "founti", "haut anza", "haut founty", "hay al farah", "hay al wafaa", "hay dakhla", "hay houda", "hay massira", "hay mohammadi", "hay najah", "hay qods", "hay salam", "illigh", "lekhiam", "riad salam", "secteur touristique", "siusse", "taddart", "taddart anza", "talborjt", "tikiouine", "tilila", "ville nouvelle", "zone industrielle agadir"]
 __model = None
 
 def get_estimated_price(location, type, status, property_state, area, rooms, bedrooms, bathrooms, jardin, piscine, cuisine_equiped):
-    if __data_columns is None or __model is None:
-        raise ValueError("Artifacts are not loaded. Please check if load_saved_artifacts() has been called.")
+    if __model is None:
+        raise Exception("Model is not loaded")
 
     loc_index = __data_columns.index(location.lower()) if location.lower() in __data_columns else -1
     type_index = __data_columns.index(type.lower()) if type.lower() in __data_columns else -1
@@ -39,21 +39,22 @@ def get_estimated_price(location, type, status, property_state, area, rooms, bed
     if property_state_index >= 0:
         x[property_state_index] = 1
 
-    return __model.predict([x])[0].astype(int)
+    return __model.predict([x])[0]
 
 def load_saved_artifacts():
     global __data_columns, __locations, __types, __status, __property_states, __model
 
-    with open("./artifacts/columns.json", "r") as f:
-        data = json.load(f)
-        __data_columns = data.get('data_columns', [])
+    try:
         __locations = __data_columns[20:]
         __types = __data_columns[7:10]
         __status = __data_columns[10:13]
         __property_states = __data_columns[13:20]
 
-    with open('./artifacts/Agadir_home_prices_model.pickle', 'rb') as f:
-        __model = pickle.load(f)
+        with open('./artifacts/Agadir_home_prices_model.pickle', 'rb') as f:
+            __model = pickle.load(f)
+        print("Model loaded successfully")
+    except Exception as e:
+        print(f"Error loading artifacts: {e}")
 
 @app.route('/predict-home-price', methods=['POST'])
 def predict_home_price():
@@ -90,4 +91,4 @@ def predict_home_price():
 
 if __name__ == "__main__":
     load_saved_artifacts()
-    app.run()
+    app.run(debug=True)
