@@ -1,14 +1,11 @@
 export const predictHomePrice = async (inputData) => {
-  const response = await fetch(
-    "https://agadir-house-prices.onrender.com/predict-home-price",
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(inputData),
-    }
-  );
+  const response = await fetch("https://app.elqadi.me/predict-home-price", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(inputData),
+  });
 
   if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);
