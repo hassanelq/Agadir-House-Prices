@@ -1,13 +1,11 @@
 "use client";
-// Components
+// Form.js
 import React, { useState } from "react";
 import Input from "./Input";
 import RadioGroup from "./RadioGroup";
 import Select from "./Select";
 import Checkbox from "./CheckBox";
-
-//Api
-import { predictHomePrice } from "../utils/api";
+import { predictHomePrice } from "../api/predict_home_price";
 
 // Data
 import locations from "../data/locations";
@@ -26,25 +24,27 @@ const Form = () => {
   const [piscine, setPiscine] = useState(false);
   const [type, setType] = useState(typesOptions[0]);
   const [status, setStatus] = useState(statusOptions[0]);
-  const [propriety, setPropriety] = useState(typesOptions[0]);
+  const [propriety, setPropriety] = useState(proprietyOptions[0]);
   const [estimatedPrice, setEstimatedPrice] = useState("");
 
   const handleSubmit = async () => {
+    const data = {
+      location,
+      type,
+      status,
+      property_state: propriety,
+      area,
+      rooms,
+      bedrooms,
+      bathrooms,
+      jardin: jardin ? 1 : 0,
+      piscine: piscine ? 1 : 0,
+      cuisine_equiped: cuisineEquipped ? 1 : 0,
+    };
+
     try {
-      const data = await predictHomePrice({
-        location,
-        type,
-        status,
-        propriety,
-        area,
-        rooms,
-        bedrooms,
-        bathrooms,
-        jardin,
-        piscine,
-        cuisineEquipped,
-      });
-      setEstimatedPrice(data.estimated_price);
+      const result = await predictHomePrice(data);
+      setEstimatedPrice(result.estimated_price);
     } catch (error) {
       console.error("Error predicting home price:", error);
     }
@@ -55,7 +55,11 @@ const Form = () => {
       <h2 className="text-xl mb-4">
         Area (m<span className="text-sm">2</span>)
       </h2>
-      <Input value={area} onChange={setArea} type="number" />
+      <Input
+        value={area}
+        onChange={(e) => setArea(e.target.value)}
+        type="number"
+      />
       <h2 className="text-xl mb-4">Rooms</h2>
       <RadioGroup
         name="Rooms"
