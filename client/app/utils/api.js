@@ -1,8 +1,8 @@
-// utils/api.js
+const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
 const API_URL = "https://app.elqadi.me";
 
 export const fetchAPI = async (endpoint, options = {}) => {
-  const response = await fetch(`${API_URL}${endpoint}`, {
+  const response = await fetch(`${CORS_PROXY}${API_URL}${endpoint}`, {
     ...options,
     headers: {
       "Content-Type": "application/json",
