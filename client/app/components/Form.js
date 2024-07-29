@@ -5,7 +5,6 @@ import Input from "./Input";
 import RadioGroup from "./RadioGroup";
 import Select from "./Select";
 import Checkbox from "./Checkerbox";
-
 import { predictHomePrice } from "../utils/api";
 
 // Data
@@ -51,67 +50,91 @@ const Form = () => {
     }
   };
 
+  const formatPrice = (price) => {
+    return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "  ");
+  };
+
   return (
-    <div className="form p-4">
-      <h2 className="text-xl mb-4">
-        Area (m<span className="text-sm">2</span>)
-      </h2>
-      <Input
-        value={area}
-        onChange={(e) => setArea(e.target.value)}
-        type="number"
-      />
-      <h2 className="text-xl mb-4">Rooms</h2>
-      <RadioGroup
-        name="Rooms"
-        options={[1, 2, 3, 4, 5, 6]}
-        selectedValue={rooms}
-        onChange={setRooms}
-      />
-      <h2 className="text-xl mb-4">Bedrooms</h2>
-      <RadioGroup
-        name="Bedrooms"
-        options={[1, 2, 3, 4]}
-        selectedValue={bedrooms}
-        onChange={setBedrooms}
-      />
-      <h2 className="text-xl mb-4">Bathrooms</h2>
-      <RadioGroup
-        name="Bathrooms"
-        options={[1, 2, 3, 4]}
-        selectedValue={bathrooms}
-        onChange={setBathrooms}
-      />
-      <h2 className="text-xl mb-4">Features</h2>
-      <Checkbox
-        label="Jardin"
-        checked={jardin}
-        onChange={() => setJardin(!jardin)}
-      />
-      <Checkbox
-        label="Cuisine Équipée"
-        checked={cuisineEquipped}
-        onChange={() => setCuisineEquipped(!cuisineEquipped)}
-      />
-      <Checkbox
-        label="Piscine"
-        checked={piscine}
-        onChange={() => setPiscine(!piscine)}
-      />
-      <h2 className="text-xl mb-4">Location</h2>
-      <Select value={location} onChange={setLocation} options={locations} />
-      <h2 className="text-xl mb-4">Type</h2>
-      <Select value={type} onChange={setType} options={typesOptions} />
-      <h2 className="text-xl mb-4">Status</h2>
-      <Select value={status} onChange={setStatus} options={statusOptions} />
-      <h2 className="text-xl mb-4">Propriety</h2>
-      <Select
-        value={propriety}
-        onChange={setPropriety}
-        options={proprietyOptions}
-      />
+    <div className="p-8 bg-white shadow-md rounded-lg max-w-md mx-auto">
+      <h2 className="text-2xl font-semibold mb-4">Estimate Home Price</h2>
+      <div className="mb-4">
+        <label className="block text-lg mb-2">
+          Area (m<sup>2</sup>)
+        </label>
+        <Input
+          value={area}
+          onChange={(e) => setArea(e.target.value)}
+          type="number"
+          className="w-full p-2 border rounded"
+        />
+      </div>
+      <div className="mb-4">
+        <label className="block text-lg mb-2">Rooms</label>
+        <RadioGroup
+          name="Rooms"
+          options={[1, 2, 3, 4, 5, 6]}
+          selectedValue={rooms}
+          onChange={setRooms}
+        />
+      </div>
+      <div className="mb-4">
+        <label className="block text-lg mb-2">Bedrooms</label>
+        <RadioGroup
+          name="Bedrooms"
+          options={[1, 2, 3, 4]}
+          selectedValue={bedrooms}
+          onChange={setBedrooms}
+        />
+      </div>
+      <div className="mb-4">
+        <label className="block text-lg mb-2">Bathrooms</label>
+        <RadioGroup
+          name="Bathrooms"
+          options={[1, 2, 3, 4]}
+          selectedValue={bathrooms}
+          onChange={setBathrooms}
+        />
+      </div>
+      <div className="mb-4">
+        <label className="block text-lg mb-2">Features</label>
+        <Checkbox
+          label="Jardin"
+          checked={jardin}
+          onChange={() => setJardin(!jardin)}
+        />
+        <Checkbox
+          label="Cuisine Équipée"
+          checked={cuisineEquipped}
+          onChange={() => setCuisineEquipped(!cuisineEquipped)}
+        />
+        <Checkbox
+          label="Piscine"
+          checked={piscine}
+          onChange={() => setPiscine(!piscine)}
+        />
+      </div>
+      <div className="mb-4">
+        <label className="block text-lg mb-2">Location</label>
+        <Select value={location} onChange={setLocation} options={locations} />
+      </div>
+      <div className="mb-4">
+        <label className="block text-lg mb-2">Type</label>
+        <Select value={type} onChange={setType} options={typesOptions} />
+      </div>
+      <div className="mb-4">
+        <label className="block text-lg mb-2">Status</label>
+        <Select value={status} onChange={setStatus} options={statusOptions} />
+      </div>
+      <div className="mb-4">
+        <label className="block text-lg mb-2">Propriety</label>
+        <Select
+          value={propriety}
+          onChange={setPropriety}
+          options={proprietyOptions}
+        />
+      </div>
       <button
-        className="submit w-full bg-green-500 text-white py-3 rounded"
+        className="w-full bg-green-600 text-white py-3 rounded transition duration-200 hover:bg-green-700"
         onClick={handleSubmit}
       >
         Estimate Price
@@ -119,9 +142,9 @@ const Form = () => {
       {estimatedPrice && (
         <div
           id="uiEstimatedPrice"
-          className="result text-[25px] text-bold mt-4 text-center p-2"
+          className="mt-4 text-2xl font-bold text-center p-2 bg-gray-100 rounded"
         >
-          <h1>{estimatedPrice} DH</h1>
+          <h1>{formatPrice(estimatedPrice)} DH</h1>
         </div>
       )}
     </div>
