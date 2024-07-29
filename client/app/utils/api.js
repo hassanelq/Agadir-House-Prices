@@ -1,18 +1,23 @@
-const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
-const API_URL = "https://app.elqadi.me";
+// app/utils/api.js
 
-export const fetchAPI = async (endpoint, options = {}) => {
-  const response = await fetch(`${CORS_PROXY}${API_URL}${endpoint}`, {
-    ...options,
-    headers: {
-      "Content-Type": "application/json",
-      ...options.headers,
-    },
-  });
+export const predictHomePrice = async (homeData) => {
+  try {
+    const response = await fetch("/api/predict-home-price", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(homeData),
+    });
 
-  if (!response.ok) {
-    throw new Error(`HTTP error! status: ${response.status}`);
+    if (!response.ok) {
+      throw new Error(`Error: ${response.statusText}`);
+    }
+
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error predicting home price:", error);
+    throw error;
   }
-
-  return await response.json();
 };

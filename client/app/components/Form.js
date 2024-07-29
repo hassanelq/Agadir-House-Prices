@@ -5,7 +5,8 @@ import Input from "./Input";
 import RadioGroup from "./RadioGroup";
 import Select from "./Select";
 import Checkbox from "./Checkerbox";
-import { predictHomePrice } from "../api/predict_home_price";
+
+import { predictHomePrice } from "../utils/api";
 
 // Data
 import locations from "../data/locations";
