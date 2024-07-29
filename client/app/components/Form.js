@@ -1,7 +1,6 @@
 "use client";
 // Form.js
 import React, { useState } from "react";
-import Input from "./Input";
 import RadioGroup from "./RadioGroup";
 import Select from "./Select";
 import Checkbox from "./Checkerbox";
@@ -61,11 +60,13 @@ const Form = () => {
         <label className="block text-lg mb-2">
           Area (m<sup>2</sup>)
         </label>
-        <Input
+        <input
           value={area}
+          className="area p-2 w-full mb-4 border rounded bg-gray-200 text-black"
           onChange={(e) => setArea(e.target.value)}
           type="number"
-          className="w-full p-2 border rounded"
+          max={1000}
+          min={40}
         />
       </div>
       <div className="mb-4">
