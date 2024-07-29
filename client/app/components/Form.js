@@ -111,7 +111,7 @@ const Form = () => {
         options={proprietyOptions}
       />
       <button
-        className="submit mt-4 w-full bg-green-500 text-white py-2 rounded"
+        className="submit w-full bg-green-500 text-white py-3 rounded"
         onClick={handleSubmit}
       >
         Estimate Price
@@ -119,9 +119,9 @@ const Form = () => {
       {estimatedPrice && (
         <div
           id="uiEstimatedPrice"
-          className="result mt-4 text-center bg-yellow-300 p-2 rounded"
+          className="result text-[25px] text-bold mt-4 text-center p-2"
         >
-          <h2>{estimatedPrice} Lakh</h2>
+          <h1>{estimatedPrice} DH</h1>
         </div>
       )}
     </div>
