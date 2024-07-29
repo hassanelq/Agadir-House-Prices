@@ -25,8 +25,11 @@ const Form = () => {
   const [status, setStatus] = useState(statusOptions[0]);
   const [propriety, setPropriety] = useState(proprietyOptions[0]);
   const [estimatedPrice, setEstimatedPrice] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = async () => {
+    setLoading(true);
+    setEstimatedPrice("");
     const data = {
       location,
       type,
@@ -46,6 +49,8 @@ const Form = () => {
       setEstimatedPrice(result.estimated_price);
     } catch (error) {
       console.error("Error predicting home price:", error);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -140,6 +145,11 @@ const Form = () => {
       >
         Estimate Price
       </button>
+      {loading && (
+        <div className="flex justify-center mt-4">
+          <div className="loader ease-linear rounded-full border-4 border-t-4 border-gray-400 h-12 w-12"></div>
+        </div>
+      )}
       {estimatedPrice && (
         <div
           id="uiEstimatedPrice"
@@ -153,3 +163,19 @@ const Form = () => {
 };
 
 export default Form;
+
+<style jsx>{`
+  .loader {
+    border-top-color: #000;
+    animation: spin 1s ease-in-out infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+`}</style>;
