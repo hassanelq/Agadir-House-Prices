@@ -1,0 +1,792 @@
+Type,Quartier,Price,Area,Rooms,Bedrooms,Bathrooms,Status
+Appartement,Hay Houda,546000,63,3,2,2,Nouveau
+Appartement,Hay Houda,979000,89,4,3,2,Nouveau
+Appartement,Hay Houda,1012000,92,4,3,2,Nouveau
+Appartement,Hay Houda,966000,84,4,3,2,Nouveau
+Appartement,Hay Houda,957000,87,4,3,2,Nouveau
+Appartement,Abattoirs,640000,80,3,N/A,N/A,Nouveau
+Appartement,Abattoirs,8000,80,4,2,2,Nouveau
+Appartement,Abattoirs,720000,90,3,2,N/A,Nouveau
+Appartement,Haut Founty,,83,4,2,1,Nouveau
+Villa,Founti,,400,6,3,3,Nouveau
+Appartement,Hay Houda,890000,81,4,3,2,Nouveau
+Appartement,Talborjt,1250000,85,3,2,2,Nouveau
+Appartement,Hay Dakhla,900000,100,4,3,1,Bon état
+Appartement,Hay Houda,630000,72,3,2,2,Nouveau
+Appartement,Talborjt,2950000,180,5,3,2,Nouveau
+Appartement,Haut Founty,1310000,84,3,2,1,Nouveau
+Appartement,Haut Founty,1251160,80,3,2,1,Nouveau
+Maison,Taddart,4200000,260,6,4,2,Bon état
+Appartement,Secteur Touristique,570000,47,2,1,1,Bon état
+Appartement,Haut Founty,980500,64,1,2,2,Nouveau
+Appartement,Hay Najah,1100000,90,3,2,1,Bon état
+Appartement,Secteur Touristique,2400000,101,5,3,2,Nouveau
+Appartement,Tikiouine,400000,70,4,3,2,Nouveau
+Maison,Tilila,,112,3,6,4,Nouveau
+Maison,Hay Houda,1700000,67,15,4,6,Bon état
+Appartement,Hay Salam,680000,71,3,2,2,Bon état
+Appartement,Hay Salam,630000,80,5,2,1,Nouveau
+Appartement,Hay Salam,640000,65,3,2,1,Nouveau
+Appartement,Amicales,1530000,100,3,3,2,Bon état
+Appartement,Hay Mohammadi,470000,50,5,2,1,Bon état
+Appartement,Haut Founty,1200000,79,4,2,2,Nouveau
+Appartement,Hay Salam,560000,78,3,2,2,Nouveau
+Appartement,Haut Founty,790000,50,2,1,1,Nouveau
+Appartement,Abattoirs,800000,100,3,N/A,N/A,Nouveau
+Appartement,Abattoirs,960000,120,3,2,N/A,Nouveau
+Appartement,Hay Houda,549000,58,3,2,2,Nouveau
+Appartement,Hay Houda,624000,65,3,2,2,Nouveau
+Maison,Charaf,2500000,130,5,3,2,Bon état
+Appartement,Founti,2400000,124,4,3,2,Bon état
+Maison,Hay Salam,1750000,88,6,4,3,Bon état
+Appartement,Hay Mohammadi,,78,1,2,1,Nouveau
+Appartement,Anahda,1250000,85,3,2,2,Nouveau
+Appartement,Hay Mohammadi,1080000,110,6,3,1,Nouveau
+Appartement,Hay Mohammadi,,107,N/A,2,2,N/A
+Appartement,Haut Founty,2450000,160,4,3,2,Nouveau
+Appartement,Founti,2900000,153,4,3,2,Bon état
+Villa,Founti,5700000,300,7,5,4,Bon état
+Appartement,Hay Houda,880000,93,4,3,1,Bon état
+Villa,Siusse,4800000,310,7,4,4,Bon état
+Villa,Siusse,6800000,500,5,4,2,Bon état
+Appartement,Ville Nouvelle,2500000,184,4,3,2,Bon état
+Villa,Founti,4400000,218,5,3,3,Bon état
+Appartement,Haut Founty,1297350,83,3,2,1,Nouveau
+Maison,Bouargane,,58,4,4,2,Bon état
+Appartement,Hay Mohammadi,,96,5,2,2,Bon état
+Appartement,Haut Founty,1233640,80,3,2,1,Nouveau
+Villa,Illigh,15000,300,13,5,2,Nouveau
+Villa,Siusse,3000000,200,4,3,2,Nouveau
+Appartement,Haut Founty,1183700,80,3,2,2,Nouveau
+Appartement,Haut Founty,1284800,82,2,2,1,Nouveau
+Appartement,Secteur Touristique,2600000,100,3,2,2,Bon état
+Appartement,Ville Nouvelle,2700000,100,3,2,2,Nouveau
+Appartement,Secteur Touristique,1900000,75,2,1,2,Bon état
+Appartement,Haut Founty,992600,65,1,2,2,Nouveau
+Appartement,Haut Founty,1695360,105,4,3,2,Nouveau
+Appartement,Haut Founty,598880,40,2,1,1,Nouveau
+Appartement,Haut Founty,696600,46,2,1,1,Nouveau
+Appartement,Secteur Touristique,1900000,66,3,2,1,Bon état
+Appartement,Ville Nouvelle,5970000,115,3,2,2,Bon état
+Appartement,Hay Mohammadi,1200000,91,3,2,2,Bon état
+Appartement,Founti,5900000,243,1,3,4,Bon état
+Appartement,Secteur Touristique,,75,3,2,1,Nouveau
+Appartement,Hay Mohammadi,1750000,172,4,3,2,Nouveau
+Villa,Illigh,6800000,370,7,5,5,Bon état
+Appartement,Ville Nouvelle,7500000,250,6,3,3,Nouveau
+Villa,Charaf,3000000,120,7,3,2,Nouveau
+Villa,Secteur Touristique,4800000,300,8,5,3,Bon état
+Appartement,Ville Nouvelle,1600000,83,1,2,1,Bon état
+Appartement,Hay Houda,1300000,64,1,1,1,Nouveau
+Appartement,Tilila,380000,50,3,2,1,Bon état
+Appartement,Hay Massira,710000,90,3,2,2,Bon état
+Appartement,Hay Mohammadi,960000,104,3,2,2,Bon état
+Villa,Cité Adrar,,200,4,5,3,Nouveau
+Appartement,Hay Houda,650000,67,2,3,2,Nouveau
+Appartement,Secteur Touristique,3300000,133,4,2,2,Nouveau
+Appartement,Secteur Touristique,,140,1,2,2,Bon état
+Appartement,Hay Salam,670000,62,3,3,1,Nouveau
+Maison,Tilila,8600000,150,3,3,2,Nouveau
+Appartement,Hay Salam,1300000,95,4,4,2,Nouveau
+Appartement,Secteur Touristique,1900000,85,3,1,2,Nouveau
+Appartement,Hay Mohammadi,2000000,160,5,3,2,Bon état
+Maison,Charaf,2200000,150,5,4,2,Bon état
+Maison,Tilila,2900000,112,13,5,3,Bon état
+Villa,Hay Najah,5400000,330,8,5,4,Nouveau
+Maison,Riad Salam,3500000,130,9,4,4,Nouveau
+Appartement,Hay Salam,630000,61,5,2,1,Bon état
+Appartement,Abattoirs,1650000,114,N/A,2,1,N/A
+Appartement,Hay Salam,630000,61,2,2,1,Bon état
+Appartement,Secteur Touristique,2000000,78,2,1,2,Bon état
+Maison,Founti,1600000,100,4,3,1,À rénover
+Appartement,Anahda,1250000,85,3,2,2,Nouveau
+Maison,Tilila,3500000,110,3,6,3,Nouveau
+Maison,Hay Houda,,80,6,4,3,Nouveau
+Appartement,Hay Salam,660000,60,N/A,2,1,N/A
+Villa,Secteur Touristique,7800000,500,7,4,4,Bon état
+Villa,Founti,4750000,309,6,5,3,Bon état
+Maison,Amicales,1460000,108,5,4,2,À rénover
+Appartement,Taddart Anza,460000,60,5,2,2,Nouveau
+Appartement,Hay Dakhla,520000,52,2,1,1,Nouveau
+Appartement,Tilila,,150,1,1,1,Nouveau
+Villa,Founti,4500000,330,3,5,3,Bon état
+Appartement,Haut Founty,,92,5,2,1,Nouveau
+Appartement,Haut Founty,,92,5,2,1,Bon état
+Maison,Haut Anza,960000,280,2,5,3,Bon état
+Maison,Taddart Anza,960000,203,2,5,3,Bon état
+Maison,Haut Anza,960000,203,2,5,3,Nouveau
+Appartement,Hay Dakhla,1150000,88,3,2,2,Nouveau
+Villa,Founti,6500000,270,9,5,4,Bon état
+Appartement,Riad Salam,1300000,83,3,2,2,Bon état
+Appartement,Hay Houda,750000,70,5,2,1,Bon état
+Appartement,Zone Industrielle Agadir,,87,3,2,2,Bon état
+Maison,Cité Adrar,1200000,64,3,3,1,Nouveau
+Maison,Tilila,3000000,112,3,3,2,Nouveau
+Appartement,Tilila,840000,78,3,3,2,Nouveau
+Appartement,Anahda,920000,76,3,2,1,À rénover
+Appartement,Hay Mohammadi,1250000,103,N/A,2,2,N/A
+Appartement,Taddart Anza,520000,100,4,4,1,Nouveau
+Appartement,Abattoirs,1000000,100,4,4,1,Nouveau
+Appartement,Tilila,15000,114,5,3,2,Nouveau
+Appartement,Cité Adrar,350000,52,3,3,1,Nouveau
+Maison,Hay Salam,2000000,84,3,3,2,Nouveau
+Appartement,Hay Salam,600000,52,3,3,1,Nouveau
+Maison,Cité Adrar,2000000,96,3,3,2,Nouveau
+Appartement,Extension Dakhla,800000,70,3,3,2,Nouveau
+Maison,Tikiouine,,120,2,3,2,Bon état
+Appartement,Hay Houda,1030000,80,3,2,1,Bon état
+Maison,Amicales,1460000,106,6,4,2,À rénover
+Maison,Hay Dakhla,2000000,133,6,4,2,Bon état
+Appartement,Founti,2500000,125,1,3,2,Bon état
+Maison,Ben Serguaou,1018340,300,1,7,4,Bon état
+Appartement,Secteur Touristique,4900000,162,3,2,1,Bon état
+Appartement,Secteur Touristique,350000,140,1,2,2,Nouveau
+Appartement,Riad Salam,770000,72,3,2,1,Bon état
+Maison,Riad Salam,3500000,400,7,5,3,Bon état
+Appartement,Abattoirs,1410000,143,4,2,2,Nouveau
+Appartement,Hay Mohammadi,1050000,88,4,3,2,Bon état
+Maison,Founti,2400000,203,12,3,3,Bon état
+Villa,Hay Najah,3600000,354,9,6,3,Bon état
+Appartement,Haut Founty,1170000,109,3,2,1,Nouveau
+Appartement,Secteur Touristique,950000,85,3,2,1,Bon état
+Maison,Charaf,1900000,130,5,3,2,Bon état
+Appartement,Hay Salam,,56,2,3,1,Bon état
+Appartement,Hay Mohammadi,320000,50,3,2,1,Nouveau
+Appartement,Hay Mohammadi,1600000,120,3,2,2,Bon état
+Villa,Founti,4900000,216,5,3,4,Nouveau
+Appartement,Taddart,1800000,151,N/A,2,1,N/A
+Appartement,Hay Salam,910000,100,6,2,2,Bon état
+Appartement,Hay Mohammadi,1600000,166,5,3,2,Bon état
+Villa,Ben Serguaou,5300000,450,6,4,3,Bon état
+Villa,Taddart,3000000,150,4,3,2,Bon état
+Appartement,Abattoirs,1700000,114,3,3,2,Nouveau
+Appartement,Haut Anza,300000,60,3,2,1,Bon état
+Villa,Talborjt,450000,220,8,4,3,Bon état
+Appartement,Hay Salam,520000,61,3,3,1,Bon état
+Appartement,Hay Houda,900000,105,3,2,2,Bon état
+Appartement,Riad Salam,1500000,94,4,3,2,Nouveau
+Appartement,Hay Houda,900000,90,6,2,2,Bon état
+Appartement,Abattoirs,1100000,95,3,2,2,Bon état
+Appartement,Lekhiam,900000,84,N/A,3,1,N/A
+Appartement,Hay Salam,720000,72,N/A,2,1,N/A
+Appartement,Ben Serguaou,1000000,90,N/A,2,2,N/A
+Appartement,Extension Dakhla,969000,76,3,2,2,Bon état
+Appartement,Zone Industrielle Agadir,,115,3,2,2,Nouveau
+Appartement,Charaf,1200000,94,1,2,2,Bon état
+Appartement,Haut Anza,380000,64,1,2,1,Nouveau
+Appartement,Hay Mohammadi,800000,50,2,1,1,Nouveau
+Appartement,Hay Salam,900000,62,1,2,1,Bon état
+Appartement,Amicales,1400000,85,1,3,2,Nouveau
+Villa,Ben Serguaou,4500000,338,5,4,4,Nouveau
+Appartement,Haut Founty,1282000,83,3,2,1,Nouveau
+Appartement,Abattoirs,1600000,114,4,3,2,Bon état
+Appartement,Hay Houda,960000,105,N/A,2,1,N/A
+Villa,Illigh,6800000,380,14,5,5,Bon état
+Appartement,Tilila,750000,62,6,2,2,Nouveau
+Appartement,Hay Mohammadi,500000,48,1,2,1,Bon état
+Maison,Extension Dakhla,1360000,75,4,4,2,Bon état
+Appartement,Tilila,,68,3,2,1,Nouveau
+Appartement,Hay Massira,1300000,86,1,2,2,Nouveau
+Appartement,Hay Salam,680000,64,3,2,1,Bon état
+Appartement,Secteur Touristique,,200,7,4,2,Bon état
+Appartement,Amicales,1200000,80,5,2,1,Bon état
+Maison,Hay Hassani,,81,5,9,6,Nouveau
+Appartement,Hay Mohammadi,490000,70,4,2,1,Bon état
+Villa,Founti,4000000,300,3,4,2,Bon état
+Appartement,Tikiouine,,70,7,7,3,Bon état
+Appartement,Hay Houda,950000,70,1,2,2,Bon état
+Appartement,Hay Mohammadi,,80,1,2,2,Nouveau
+Maison,Hay Massira,520000,82,1,4,2,Bon état
+Appartement,Hay Salam,,64,3,2,1,Nouveau
+Appartement,Riad Salam,1450000,96,4,3,2,Bon état
+Appartement,Hay Mohammadi,1950000,172,4,3,3,Nouveau
+Appartement,Hay Houda,920000,105,6,2,2,Bon état
+Appartement,Hay Mohammadi,1060000,110,1,1,2,Nouveau
+Appartement,Lekhiam,,117,1,3,2,Bon état
+Appartement,Hay Houda,700000,70,2,3,2,Bon état
+Appartement,Hay Salam,950000,72,3,1,2,Nouveau
+Maison,Bouargane,400000,100,1,5,2,À rénover
+Appartement,Founti,1900000,89,3,2,1,Bon état
+Appartement,Tilila,750000,82,N/A,2,1,N/A
+Villa,Tilila,3800000,200,N/A,4,4,N/A
+Appartement,Hay Mohammadi,950000,91,N/A,2,2,N/A
+Appartement,Hay Salam,620000,65,N/A,2,1,N/A
+Appartement,Hay Massira,1750000,175,N/A,3,2,N/A
+Appartement,Hay Salam,630000,65,N/A,2,1,N/A
+Appartement,Hay Salam,1100000,114,N/A,3,2,N/A
+Appartement,Hay Dakhla,750000,80,N/A,2,1,N/A
+Villa,Founti,6000000,171,N/A,4,3,N/A
+Appartement,Hay Mohammadi,1550000,198,N/A,3,2,N/A
+Appartement,Founti,1750000,91,N/A,2,2,N/A
+Appartement,Hay Dakhla,700000,87,N/A,2,1,N/A
+Villa,Tikiouine,3200000,292,N/A,4,2,N/A
+Appartement,Hay Houda,1400000,79,N/A,2,1,N/A
+Appartement,Founti,2100000,96,N/A,2,1,N/A
+Villa,Illigh,,370,6,4,2,Bon état
+Maison,Haut Anza,960000,203,2,5,3,Bon état
+Appartement,Hay Mohammadi,1100000,101,3,2,2,Nouveau
+Appartement,Haut Founty,1328000,85,2,2,2,Nouveau
+Maison,Talborjt,,70,4,3,3,Bon état
+Maison,Hay Dakhla,1600000,150,2,4,2,Bon état
+Maison,Hay Salam,2300000,96,9,6,4,Bon état
+Appartement,Hay Mohammadi,380000,56,1,3,1,Bon état
+Appartement,Hay Mohammadi,600000,64,5,2,1,Bon état
+Appartement,Extension Dakhla,4200000,432,1,8,4,Bon état
+Appartement,Hay Houda,680000,65,3,2,1,Bon état
+Maison,Tikiouine,1950000,75,6,6,3,Nouveau
+Appartement,Hay Mohammadi,,50,1,2,1,Bon état
+Villa,Illigh,13000000,629,5,4,4,Bon état
+Appartement,Hay Salam,600000,65,3,3,1,Nouveau
+Appartement,Hay Mohammadi,920000,86,3,3,2,Nouveau
+Villa,Hay Zaytoun,5500000,320,4,4,2,Nouveau
+Appartement,Amsernate,620000,68,1,2,2,Bon état
+Appartement,Hay Salam,,80,1,2,1,Bon état
+Appartement,Hay Salam,570000,60,1,3,2,Bon état
+Appartement,Hay Houda,660000,67,3,2,2,Bon état
+Maison,Hay Al Wafaa,500000,153,14,14,8,Bon état
+Appartement,Hay Mohammadi,,50,1,2,1,Bon état
+Villa,Taddart,3200000,282,2,5,3,Bon état
+Appartement,Hay Najah,1550000,130,3,2,2,Bon état
+Appartement,Hay Najah,1350000,102,4,3,2,Nouveau
+Appartement,Talborjt,,100,4,2,2,Bon état
+Villa,Founti,3700000,166,6,5,4,Bon état
+Appartement,Secteur Touristique,,91,2,2,1,Bon état
+Villa,Charaf,2000000,120,4,3,1,Bon état
+Appartement,Haut Founty,1250000,105,5,2,1,Nouveau
+Appartement,Secteur Touristique,2950000,128,1,2,2,Nouveau
+Villa,Haut Founty,,136,12,6,5,Nouveau
+Villa,Taddart,2900000,150,5,3,2,Bon état
+Appartement,Hay Mohammadi,370000,52,3,3,1,Nouveau
+Villa,Bouargane,4000000,354,N/A,4,2,N/A
+Villa,Hay Dakhla,5000000,366,N/A,3,2,N/A
+Villa,Hay Houda,3700000,300,N/A,3,3,N/A
+Villa,Port,9500000,480,N/A,6,4,N/A
+Villa,Port,16000000,644,N/A,6,4,N/A
+Appartement,Hay Mohammadi,850000,96,1,1,1,Nouveau
+Appartement,Haut Founty,3700000,134,5,4,2,Nouveau
+Appartement,Hay Mohammadi,620000,58,3,2,1,Nouveau
+Appartement,Founti,2600000,200,4,3,2,Nouveau
+Appartement,Hay Salam,880000,81,3,2,1,Bon état
+Appartement,Hay Mohammadi,1200000,86,4,3,2,Nouveau
+Appartement,Secteur Touristique,3400000,146,8,3,2,Bon état
+Maison,Boutchakat,2500000,210,6,3,2,Bon état
+Appartement,Founti,1700000,89,1,2,2,Bon état
+Appartement,Zone Industrielle Agadir,1357000,192,3,2,2,Nouveau
+Maison,Ben Serguaou,1800000,110,7,5,4,À rénover
+Appartement,Hay Mohammadi,1100000,96,3,3,2,Nouveau
+Appartement,Hay Mohammadi,960000,96,2,2,2,Bon état
+Maison,Lekhiam,1250000,80,8,6,3,À rénover
+Appartement,Port,2100000,124,5,2,2,Nouveau
+Appartement,Boutchakat,1260000,96,1,3,2,Bon état
+Appartement,Port,2200000,130,5,2,2,Bon état
+Appartement,Ville Nouvelle,380000,52,3,2,1,Bon état
+Appartement,Hay Salam,,100,3,4,2,Nouveau
+Appartement,Secteur Touristique,,137,3,2,1,Nouveau
+Villa,Hay Mohammadi,2960000,264,1,1,1,Nouveau
+Appartement,Secteur Touristique,1800000,80,2,1,2,Bon état
+Appartement,Hay Mohammadi,1100000,71,4,2,1,Bon état
+Appartement,Al Wifaq,1150000,89,2,2,1,Nouveau
+Appartement,Hay Houda,1100000,105,4,3,2,Bon état
+Appartement,Haut Anza,560000,64,5,2,2,Nouveau
+Appartement,Hay Dakhla,650000,70,3,2,1,Bon état
+Appartement,Hay Najah,1000000,105,3,2,2,Bon état
+Appartement,Abattoirs,1030000,79,3,2,2,Nouveau
+Villa,Secteur Touristique,4900000,240,7,6,4,Bon état
+Appartement,Secteur Touristique,3250000,150,4,3,2,Bon état
+Appartement,Hay Dakhla,900000,150,3,2,2,Bon état
+Appartement,Founti,1750000,96,3,2,1,Bon état
+Appartement,Secteur Touristique,2600000,125,3,2,1,Bon état
+Appartement,Amsernate,900000,101,3,2,1,Bon état
+Appartement,Secteur Touristique,2750000,128,3,2,2,Bon état
+Villa,Founti,4500000,178,7,5,3,Nouveau
+Maison,Tilila,7000,300,4,4,4,Bon état
+Appartement,Hay Dakhla,1750000,173,6,3,2,Bon état
+Appartement,Hay Houda,,81,1,2,2,Bon état
+Villa,Hay Najah,3900000,315,8,5,4,Nouveau
+Appartement,Taddart Anza,640000,128,5,3,2,Nouveau
+Appartement,Hay Mohammadi,800000,84,1,2,2,Bon état
+Appartement,Hay Mohammadi,740000,70,4,2,1,Nouveau
+Appartement,Founti,2850000,135,3,2,2,Bon état
+Villa,Cité Adrar,1600000,131,5,3,2,À rénover
+Villa,Taddart,3300000,220,3,4,2,Bon état
+Appartement,Haut Founty,3600000,280,4,4,3,Nouveau
+Appartement,Lekhiam,,100,2,2,2,Nouveau
+Appartement,Zone Industrielle Agadir,900000,107,4,2,2,Nouveau
+Appartement,Cité Adrar,7500000,84,3,2,1,Bon état
+Appartement,Hay Salam,880000,62,3,2,1,Bon état
+Appartement,Riad Salam,1300000,94,4,3,2,Nouveau
+Maison,Al Wifaq,3500000,170,4,4,2,Nouveau
+Maison,Ben Serguaou,2600000,126,3,3,2,Nouveau
+Appartement,Hay Mohammadi,660000,55,2,2,1,Nouveau
+Appartement,Tilila,780000,70,3,2,1,Bon état
+Appartement,Hay Mohammadi,,80,2,2,2,Bon état
+Villa,Hay Najah,3400000,200,6,8,5,Bon état
+Villa,Hay Houda,3800000,460,8,4,3,À rénover
+Appartement,Hay Mohammadi,,71,1,2,2,Nouveau
+Appartement,Haut Founty,800000,66,2,1,1,Nouveau
+Appartement,Hay Mohammadi,850000,93,3,2,2,Bon état
+Appartement,Hay Mohammadi,,94,1,2,2,Bon état
+Appartement,Hay Mohammadi,420000,50,1,2,1,Bon état
+Villa,Tilila,2500000,131,6,3,3,Bon état
+Maison,Cité Adrar,1900000,80,7,5,3,Bon état
+Appartement,Hay Houda,880000,88,3,2,2,Bon état
+Villa,Hay Najah,3400000,200,8,5,4,Bon état
+Appartement,Hay Mohammadi,1250000,114,4,3,2,Nouveau
+Appartement,Hay Mohammadi,530000,52,3,2,1,Bon état
+Appartement,Hay Houda,1860000,154,5,3,2,Nouveau
+Appartement,Hay Mohammadi,650000,64,1,2,2,Nouveau
+Appartement,Anza,1400000,95,3,3,2,Nouveau
+Maison,Hay Dakhla,2400000,170,2,5,2,À rénover
+Appartement,Hay Houda,,98,3,3,2,Nouveau
+Appartement,Hay Mohammadi,,127,2,3,2,Nouveau
+Appartement,Ville Nouvelle,600000,60,2,2,2,Bon état
+Appartement,Hay Salam,900000,76,3,2,1,Nouveau
+Appartement,Bouargane,950000,125,4,3,2,Bon état
+Appartement,Hay Mohammadi,,60,1,2,2,Nouveau
+Villa,Hay Dakhla,3300000,370,7,4,2,Bon état
+Appartement,Anza,750000,56,2,2,2,Bon état
+Appartement,Secteur Touristique,,170,2,3,3,Nouveau
+Villa,Illigh,,350,3,3,3,Nouveau
+Appartement,Hay Salam,475000,68,4,2,1,Bon état
+Villa,Tilila,3000000,320,7,4,3,Bon état
+Appartement,Amsernate,650000,68,1,2,2,Bon état
+Appartement,Hay Mohammadi,,60,2,2,2,Nouveau
+Villa,Ben Serguaou,,300,2,4,1,Bon état
+Appartement,Riad Salam,950000,110,3,2,2,Bon état
+Maison,Charaf,,99,3,3,1,Bon état
+Appartement,Hay Mohammadi,1387500,111,1,3,2,Nouveau
+Appartement,Riad Salam,,114,1,3,2,Bon état
+Villa,Hay Mohammadi,2950000,264,1,3,2,Nouveau
+Appartement,Hay Mohammadi,540000,61,3,3,1,Nouveau
+Appartement,Hay Houda,490000,50,3,1,1,Bon état
+Maison,Cité Adrar,1000000,64,2,2,1,Nouveau
+Appartement,Cité Adrar,350000,52,3,3,1,Nouveau
+Maison,Cité Adrar,3200000,80,3,3,2,Nouveau
+Appartement,Tilila,380000,52,3,3,1,Nouveau
+Appartement,Amsernate,,100,1,2,2,Bon état
+Appartement,Hay Mohammadi,420000,54,1,2,1,Bon état
+Appartement,Hay Salam,460000,64,3,3,1,Nouveau
+Appartement,Hay Mohammadi,570000,60,3,3,2,Nouveau
+Appartement,Hay Mohammadi,450000,52,3,3,1,Nouveau
+Appartement,Hay Dakhla,968000,94,3,2,1,Nouveau
+Appartement,Hay Salam,800000,80,7,3,2,Bon état
+Appartement,Hay Dakhla,1750000,175,6,3,3,Bon état
+Maison,Zone Industrielle Agadir,2400000,80,1,1,1,Bon état
+Maison,Hay Salam,6500000,124,3,3,2,Nouveau
+Maison,Hay Massira,2600000,81,3,3,2,Nouveau
+Villa,Hay Dakhla,2700000,360,5,5,4,Nouveau
+Maison,Hay Houda,1700000,120,3,3,1,Nouveau
+Appartement,Secteur Touristique,2000000,120,4,4,2,Nouveau
+Appartement,Hay Massira,1200000,83,1,2,2,Bon état
+Villa,Founti,,380,7,5,4,Bon état
+Appartement,Talborjt,630000,58,1,3,1,Bon état
+Appartement,Founti,2800000,186,5,3,3,Bon état
+Appartement,Riad Salam,1200000,94,1,3,2,Bon état
+Appartement,Founti,1700000,94,3,2,2,Nouveau
+Appartement,Haut Founty,1245000,83,3,2,2,Nouveau
+Appartement,Tilila,800000,72,1,2,2,Bon état
+Appartement,Hay Houda,620000,68,3,2,1,Bon état
+Appartement,Al Wifaq,900000,76,4,3,2,Nouveau
+Appartement,Hay Mohammadi,850000,94,4,3,2,Nouveau
+Appartement,Hay Salam,520000,64,1,2,1,Bon état
+Villa,Charaf,1650000,120,1,4,2,Bon état
+Maison,Lekhiam,,80,1,5,3,Bon état
+Maison,Al Wifaq,2000000,120,3,3,2,Nouveau
+Appartement,Haut Founty,1440000,97,4,4,2,Nouveau
+Maison,Cité Adrar,1600000,67,3,3,1,Nouveau
+Appartement,Secteur Touristique,2800000,112,3,3,2,Nouveau
+Appartement,Hay Massira,1200000,85,3,3,2,Nouveau
+Appartement,Riad Salam,1307000,78,3,2,2,Bon état
+Appartement,Lekhiam,900000,85,6,2,2,Nouveau
+Appartement,Hay Mohammadi,770000,82,4,3,2,Nouveau
+Appartement,Extension Dakhla,1100000,113,3,2,2,Bon état
+Appartement,Hay Houda,1000000,83,4,4,2,Nouveau
+Maison,Cité Adrar,2600000,80,3,3,2,Nouveau
+Appartement,Ben Serguaou,860000,73,3,3,2,Nouveau
+Maison,Hay Salam,2200000,105,3,3,2,Nouveau
+Maison,Haut Founty,3800000,147,4,4,2,Nouveau
+Appartement,Riad Salam,650000,74,3,2,1,Bon état
+Maison,Abattoirs,,150,1,3,2,Bon état
+Appartement,Hay Mohammadi,950000,93,3,2,2,Bon état
+Maison,Assaka,,99,12,5,3,Bon état
+Appartement,Secteur Touristique,1750000,95,2,1,2,Bon état
+Appartement,Founti,2600000,120,3,2,2,Nouveau
+Appartement,Abattoirs,880000,85,1,2,1,Nouveau
+Appartement,Hay Salam,530000,74,6,3,2,Bon état
+Villa,Tilila,1750000,170,1,1,1,Nouveau
+Appartement,Hay Salam,540000,64,3,3,1,Nouveau
+Maison,Hay Mohammadi,1400000,75,3,3,1,Nouveau
+Appartement,Secteur Touristique,,117,3,3,2,Nouveau
+Appartement,Hay Mohammadi,420000,57,3,3,1,Nouveau
+Appartement,Hay Mohammadi,1300000,180,4,4,2,Nouveau
+Appartement,Hay Mohammadi,840000,103,4,4,2,Nouveau
+Villa,Tilila,2800000,112,13,6,4,Bon état
+Appartement,Hay Houda,1200000,105,3,2,2,Bon état
+Appartement,Riad Salam,,94,3,4,2,Bon état
+Appartement,Hay Mohammadi,,121,1,3,2,Nouveau
+Appartement,Hay Salam,750000,70,6,2,1,Bon état
+Villa,Charaf,2225000,180,5,4,3,Bon état
+Appartement,Hay Al Farah,840000,93,3,3,2,Nouveau
+Appartement,Hay Salam,580000,75,3,3,1,Nouveau
+Maison,Al Wifaq,2000000,120,3,3,2,Nouveau
+Maison,Cité Adrar,,80,4,4,2,Nouveau
+Appartement,Haut Founty,1230000,85,3,3,2,Nouveau
+Villa,Tilila,4500000,300,4,4,2,Nouveau
+Maison,Charaf,2200000,167,3,3,2,Nouveau
+Appartement,Hay Mohammadi,770000,73,3,3,2,Nouveau
+Appartement,Hay Mohammadi,1100000,100,4,4,2,Nouveau
+Appartement,Hay Mohammadi,1460000,130,4,4,2,Nouveau
+Maison,Hay Mohammadi,1400000,75,3,3,1,Nouveau
+Appartement,Hay Mohammadi,880000,80,3,3,2,Nouveau
+Appartement,Hay Mohammadi,620000,61,3,3,2,Nouveau
+Appartement,Haut Founty,1650000,110,3,2,3,Nouveau
+Villa,Hay Najah,,332,2,3,2,Bon état
+Maison,Lekhiam,1450000,82,12,7,3,Bon état
+Appartement,Hay Al Farah,680000,77,3,2,2,Bon état
+Maison,Riad Salam,2100000,127,18,7,6,Bon état
+Appartement,Hay Houda,510000,50,5,2,1,Bon état
+Appartement,Hay Houda,1250000,98,4,3,2,Bon état
+Appartement,Talborjt,1340000,161,4,3,2,Nouveau
+Appartement,Hay Mohammadi,,100,4,2,2,Nouveau
+Appartement,Haut Founty,2240000,140,3,3,3,Bon état
+Appartement,Secteur Touristique,2800000,125,5,2,1,Nouveau
+Appartement,Haut Founty,1305500,77,3,2,1,Nouveau
+Appartement,Hay Mohammadi,600000,60,4,2,1,Nouveau
+Appartement,Hay Salam,1650000,122,4,3,2,Bon état
+Appartement,Ville Nouvelle,1400000,195,6,4,3,Bon état
+Appartement,Anza,650000,60,2,1,1,Nouveau
+Appartement,Hay Mohammadi,,150,4,4,3,Nouveau
+Appartement,Laazib,,60,1,1,1,Nouveau
+Appartement,Al Wifaq,900000,98,1,3,2,Nouveau
+Appartement,Riad Salam,1500000,94,4,4,2,Bon état
+Maison,Secteur Touristique,,51,1,5,3,Nouveau
+Appartement,Hay Mohammadi,,110,1,2,2,Bon état
+Appartement,Hay Salam,400000,54,1,2,1,Bon état
+Villa,Hay Mohammadi,5200000,210,6,4,3,Bon état
+Maison,Riad Salam,3200000,126,7,5,3,Bon état
+Appartement,Cité Adrar,,60,1,4,1,Bon état
+Villa,Founti,3500000,162,5,3,2,Bon état
+Maison,Tilila,2600000,112,11,4,3,Bon état
+Appartement,Hay Dakhla,1150000,123,7,3,2,Bon état
+Appartement,Hay Mohammadi,480000,54,1,2,1,Bon état
+Maison,Secteur Touristique,3600000,218,1,5,1,Nouveau
+Appartement,Al Wifaq,560000,60,5,2,1,Bon état
+Appartement,Ville Nouvelle,950000,92,8,2,2,Bon état
+Maison,Lekhiam,1300000,80,8,5,3,Bon état
+Appartement,Hay Salam,750000,78,4,2,1,Bon état
+Appartement,Founti,2100000,66,3,2,2,Nouveau
+Appartement,Founti,3000000,135,3,2,2,Nouveau
+Appartement,Haut Founty,1500000,100,3,2,2,Nouveau
+Appartement,Founti,3300000,113,6,2,2,Bon état
+Appartement,Extension Dakhla,1500000,123,4,3,1,Bon état
+Maison,Taddart Anza,1500000,111,6,3,2,Nouveau
+Appartement,Hay Mohammadi,,64,1,2,2,Bon état
+Appartement,Hay Houda,880000,88,6,3,2,Bon état
+Appartement,Abattoirs,1500000,121,3,2,2,Bon état
+Appartement,Founti,2300000,125,4,3,2,Bon état
+Appartement,Talborjt,1650000,124,4,3,2,Nouveau
+Appartement,Haut Anza,520000,74,1,10,1,Nouveau
+Appartement,Secteur Touristique,,108,2,3,2,Bon état
+Appartement,Hay Mohammadi,350000,50,1,1,1,Bon état
+Appartement,Tilila,850000,72,3,2,2,Bon état
+Maison,Hay Mohammadi,,108,3,4,2,Nouveau
+Appartement,Zone Industrielle Agadir,560000,65,1,2,1,Bon état
+Appartement,Hay Mohammadi,840000,88,1,2,2,Bon état
+Maison,Hay Massira,1600000,108,7,5,3,Bon état
+Appartement,Hay Mohammadi,470000,56,3,3,1,Nouveau
+Appartement,Hay Qods,,160,6,3,2,Bon état
+Appartement,Hay Mohammadi,760000,67,2,2,1,Nouveau
+Appartement,Amicales,1600000,100,3,3,2,Bon état
+Appartement,Hay Mohammadi,1040000,102,3,2,2,Bon état
+Appartement,Hay Houda,,60,1,2,2,Nouveau
+Maison,Ville Nouvelle,,450,3,2,1,Nouveau
+Appartement,Hay Salam,390000,60,3,3,1,Nouveau
+Appartement,Extension Dakhla,1300000,90,3,2,1,Bon état
+Maison,Hay Qods,,133,22,12,10,Nouveau
+Appartement,Hay Mohammadi,720000,82,1,3,1,Nouveau
+Appartement,Founti,,77,1,2,1,Bon état
+Appartement,Hay Dakhla,900000,100,3,3,2,Bon état
+Appartement,Ben Serguaou,100000,64,6,6,3,Bon état
+Appartement,Ville Nouvelle,,235,4,3,2,Bon état
+Villa,Anza,2300000,179,5,4,2,Nouveau
+Appartement,Zone Industrielle Agadir,640000,70,4,2,1,Bon état
+Appartement,Founti,1900000,70,1,2,1,Bon état
+Maison,Hay Al Wafaa,,68,3,5,3,Bon état
+Appartement,Hay Houda,800000,75,2,1,2,Bon état
+Appartement,Hay Mohammadi,,132,2,3,3,Nouveau
+Villa,Hay Dakhla,,322,2,4,3,Bon état
+Appartement,Hay Houda,,48,1,1,1,Bon état
+Appartement,Hay Mohammadi,530000,60,1,1,2,Bon état
+Appartement,Ben Serguaou,1000000,119,4,2,1,Bon état
+Maison,Anza,,176,10,10,4,Bon état
+Appartement,Hay Mohammadi,960000,101,3,2,2,Bon état
+Appartement,Hay Qods,750000,85,4,4,2,Bon état
+Appartement,Hay Mohammadi,445000,55,3,2,1,Bon état
+Maison,Hay Qods,1600000,133,7,5,2,Bon état
+Maison,Hay Mohammadi,2960000,113,4,3,2,Nouveau
+Maison,Riad Salam,2650000,125,8,4,3,Bon état
+Appartement,Hay Mohammadi,1700000,124,3,2,2,Bon état
+Maison,Hay Salam,1700000,80,2,5,4,Bon état
+Appartement,Hay Mohammadi,,102,3,2,2,Bon état
+Appartement,Hay Mohammadi,1250000,156,5,3,2,Nouveau
+Appartement,Hay Mohammadi,,250,3,3,2,Nouveau
+Appartement,Hay Hassani,,88,4,2,2,Bon état
+Appartement,Haut Founty,1130000,78,3,2,1,Nouveau
+Appartement,Hay Salam,550000,60,3,2,1,Bon état
+Appartement,Abattoirs,1500000,112,4,4,3,Bon état
+Appartement,Taddart,1110000,88,3,2,1,Bon état
+Maison,Hay Mohammadi,3000000,150,1,1,1,Nouveau
+Appartement,Hay Massira,1500000,116,4,2,2,Nouveau
+Appartement,Hay Salam,650000,112,5,2,1,À rénover
+Maison,Extension Dakhla,3100000,312,9,6,3,Bon état
+Appartement,Hay Dakhla,950000,80,3,3,1,Nouveau
+Villa,Al Wifaq,,180,7,7,6,Bon état
+Appartement,Hay Houda,930000,81,3,3,2,Bon état
+Appartement,Hay Houda,950000,90,1,3,2,Bon état
+Appartement,Cité Adrar,600000,66,1,2,2,Nouveau
+Appartement,Founti,1550000,107,4,3,2,Bon état
+Appartement,Secteur Touristique,,120,1,2,2,Bon état
+Villa,Hay Mohammadi,2200000,175,3,3,1,Nouveau
+Appartement,Hay Houda,,85,1,2,2,Nouveau
+Villa,Hay Najah,,330,2,5,3,Bon état
+Appartement,Hay Mohammadi,1350000,105,2,2,4,Bon état
+Appartement,Hay Houda,800000,87,4,3,2,Bon état
+Maison,Al Wifaq,2000000,120,8,5,3,Bon état
+Appartement,Hay Mohammadi,550000,60,3,2,1,Nouveau
+Appartement,Cité Adrar,720000,60,3,2,1,Nouveau
+Appartement,Haut Founty,,96,3,2,2,Nouveau
+Appartement,Hay Salam,,70,1,2,1,Bon état
+Appartement,Hay Mohammadi,680000,60,3,2,1,Nouveau
+Appartement,Secteur Touristique,1650000,96,3,2,1,Bon état
+Villa,Charaf,2300000,160,4,3,2,Bon état
+Appartement,Hay Dakhla,770000,76,3,2,1,Bon état
+Maison,Hay Dakhla,6000000,660,16,8,8,Bon état
+Maison,Hay Mohammadi,6800000,225,1,3,2,Nouveau
+Appartement,Hay Mohammadi,,82,1,2,2,Bon état
+Appartement,Zone Industrielle Agadir,1700000,98,1,2,3,Bon état
+Appartement,Haut Founty,800000,64,1,1,1,Nouveau
+Appartement,Hay Salam,,68,2,1,1,Bon état
+Villa,Charaf,2200000,120,6,4,2,Bon état
+Villa,Taddart,792000,200,6,4,2,Bon état
+Appartement,Hay Mohammadi,850000,80,3,2,2,Nouveau
+Appartement,Ben Serguaou,400000,50,1,2,1,Bon état
+Maison,Al Wifaq,3100000,225,2,6,2,Bon état
+Appartement,Tilila,850000,78,2,2,2,Nouveau
+Appartement,Hay Mohammadi,1580000,117,4,3,2,Bon état
+Appartement,Hay Mohammadi,500000,54,1,2,1,Bon état
+Appartement,Hay Mohammadi,1800000,211,1,5,3,Bon état
+Appartement,Hay Salam,530000,70,3,2,1,Bon état
+Appartement,Hay Salam,630000,67,3,2,1,Bon état
+Appartement,Hay Mohammadi,910000,95,3,2,2,Bon état
+Appartement,Secteur Touristique,180000,150,1,3,2,Bon état
+Appartement,Hay Salam,520000,60,3,3,2,Bon état
+Appartement,Founti,230000,128,1,3,2,Nouveau
+Appartement,Hay Dakhla,1300000,140,3,2,1,Bon état
+Villa,Hay Najah,6500000,300,9,5,4,Bon état
+Appartement,Hay Salam,560000,68,3,2,2,Bon état
+Appartement,Hay Mohammadi,640000,62,3,2,2,Bon état
+Villa,Tilila,1900000,175,4,3,3,À rénover
+Appartement,Hay Mohammadi,700000,70,1,2,2,Nouveau
+Appartement,Haut Founty,1000000,70,3,3,1,Nouveau
+Appartement,Hay Mohammadi,360000,49,3,2,1,Nouveau
+Appartement,Hay Houda,920000,88,7,3,2,Bon état
+Appartement,Hay Dakhla,360000,71,3,2,1,Bon état
+Villa,Charaf,,167,3,3,3,Bon état
+Appartement,Tilila,760000,112,4,3,2,Nouveau
+Appartement,Hay Salam,490000,60,3,2,1,Bon état
+Appartement,Hay Houda,420000,52,1,2,1,À rénover
+Appartement,Hay Salam,,74,1,2,1,Bon état
+Appartement,Haut Founty,,94,1,2,2,Nouveau
+Appartement,Hay Mohammadi,,66,3,2,1,Nouveau
+Appartement,Hay Houda,120000,118,2,2,1,Bon état
+Appartement,Hay Mohammadi,600000,60,2,1,2,Bon état
+Villa,Tilila,2950000,200,8,4,4,Bon état
+Appartement,Ben Serguaou,350000,70,4,2,1,Bon état
+Appartement,Tilila,850000,100,4,3,1,Bon état
+Appartement,Hay Mohammadi,980000,85,3,2,2,Bon état
+Appartement,Hay Mohammadi,1500000,122,3,2,1,Bon état
+Villa,Siusse,9200000,300,9,6,3,Bon état
+Villa,Ben Serguaou,4900000,519,5,3,3,Bon état
+Appartement,Founti,4450000,150,3,2,2,Bon état
+Maison,Hay Dakhla,2800000,200,3,12,3,Bon état
+Appartement,Tilila,480000,58,1,2,1,Nouveau
+Appartement,Hay Houda,700000,72,3,2,1,Bon état
+Appartement,Hay Mohammadi,400000,58,4,2,1,Nouveau
+Appartement,Zone Industrielle Agadir,1000000,70,3,3,1,Bon état
+Appartement,Tilila,,112,6,6,2,Nouveau
+Appartement,Hay Mohammadi,500000,54,2,2,1,Nouveau
+Appartement,Ben Serguaou,,64,3,2,2,Bon état
+Appartement,Tilila,,112,6,6,2,Nouveau
+Appartement,Abattoirs,,131,3,3,3,Nouveau
+Appartement,Hay Salam,540000,60,3,3,2,Bon état
+Villa,Secteur Touristique,2800000,343,7,5,2,Nouveau
+Maison,Talborjt,,95,8,6,4,Bon état
+Appartement,Charaf,1500000,110,2,2,2,Nouveau
+Appartement,Founti,4500000,240,2,3,3,Nouveau
+Appartement,Hay Mohammadi,950000,95,3,3,2,Nouveau
+Appartement,Secteur Touristique,2200000,120,4,3,2,Bon état
+Appartement,Hay Salam,690000,75,5,2,1,Bon état
+Appartement,Abattoirs,480000,80,1,1,1,Nouveau
+Appartement,Hay Mohammadi,510000,70,3,3,1,Bon état
+Villa,Founti,3000000,160,4,3,2,Bon état
+Appartement,Secteur Touristique,4800000,172,4,3,2,Bon état
+Appartement,Riad Salam,,75,3,2,2,Bon état
+Appartement,Secteur Touristique,,110,2,1,2,Nouveau
+Maison,Tikiouine,980000,108,9,5,2,Bon état
+Appartement,Ville Nouvelle,,200,1,1,1,Bon état
+Appartement,Hay Mohammadi,560000,64,1,2,1,Nouveau
+Appartement,Hay Salam,600000,65,3,2,1,Bon état
+Appartement,Hay Mohammadi,460000,46,3,2,1,Bon état
+Appartement,Haut Anza,450000,110,3,2,2,Nouveau
+Appartement,Hay Mohammadi,,150,1,2,1,Bon état
+Maison,Hay Salam,,90,3,8,5,Bon état
+Appartement,Hay Al Farah,,78,3,2,1,Bon état
+Appartement,Hay Mohammadi,,133,3,2,2,Nouveau
+Appartement,Hay Houda,1000000,117,4,2,2,Bon état
+Appartement,Hay Salam,700000,78,3,3,1,Bon état
+Villa,Taddart Anza,1450000,110,4,4,5,Nouveau
+Villa,Illigh,6500000,268,12,5,4,Nouveau
+Appartement,Cité Adrar,,54,2,3,1,Bon état
+Maison,Talborjt,3000000,126,1,6,3,Bon état
+Villa,Tilila,2600000,130,5,4,3,Bon état
+Appartement,Abattoirs,1380000,97,3,2,1,Bon état
+Appartement,Hay Mohammadi,900000,114,4,2,1,Bon état
+Appartement,Talborjt,800000,75,3,2,1,Bon état
+Appartement,Hay Najah,1350000,99,1,2,2,Bon état
+Appartement,Hay Al Wafaa,590000,60,1,2,1,Bon état
+Appartement,Secteur Touristique,,70,2,1,1,Nouveau
+Maison,Ben Serguaou,1000000,47,1,2,1,Bon état
+Maison,Hay Al Wafaa,,153,4,12,8,Bon état
+Maison,Hay Mohammadi,6400000,153,12,12,8,Bon état
+Appartement,Extension Dakhla,580000,64,1,1,3,Nouveau
+Maison,Cité Adrar,900000,64,3,3,1,Nouveau
+Maison,Hay Salam,1700000,100,3,3,1,Nouveau
+Appartement,Hay Al Farah,,82,3,2,2,Bon état
+Appartement,Hay Mohammadi,,70,5,2,1,Bon état
+Appartement,Hay Houda,1550000,131,5,3,2,Bon état
+Appartement,Hay Salam,640000,66,6,2,1,À rénover
+Appartement,Abattoirs,1070000,100,4,4,2,Nouveau
+Appartement,Hay Zaytoun,460000,59,1,2,1,Nouveau
+Appartement,Hay Mohammadi,680000,65,3,3,2,Bon état
+Appartement,Haut Founty,1200000,78,3,2,1,Nouveau
+Maison,Secteur Touristique,2100000,144,9,7,3,À rénover
+Appartement,Amsernate,,126,4,3,2,Bon état
+Appartement,Tilila,520000,58,3,2,2,Bon état
+Appartement,Cité Adrar,790000,62,3,2,1,Nouveau
+Appartement,Cité Adrar,,54,2,2,1,Bon état
+Villa,Al Wifaq,,160,2,2,2,Bon état
+Appartement,Hay Mohammadi,1100000,118,1,2,2,Nouveau
+Villa,Tilila,4800000,400,12,6,3,Bon état
+Villa,Cité Adrar,2800000,127,3,3,2,Bon état
+Appartement,Secteur Touristique,,116,7,2,2,Bon état
+Appartement,Hay Dakhla,1675000,134,5,4,2,Bon état
+Appartement,Hay Al Farah,625000,78,5,2,1,Bon état
+Appartement,Secteur Touristique,1000000,71,2,2,1,Nouveau
+Villa,Founti,7600000,324,5,5,4,Nouveau
+Maison,Anza,2000000,80,4,6,3,Bon état
+Appartement,Tilila,600000,72,2,1,2,Bon état
+Appartement,Hay Mohammadi,928600,94,5,2,1,Bon état
+Appartement,Al Wifaq,660000,61,3,2,1,Nouveau
+Appartement,Hay Salam,450000,52,3,2,2,Bon état
+Appartement,Ville Nouvelle,450000,69,3,2,1,Nouveau
+Maison,Hay Mohammadi,1450000,64,3,3,1,Nouveau
+Appartement,Hay Mohammadi,950000,114,4,4,2,Nouveau
+Appartement,Hay Mohammadi,530000,62,3,3,2,Nouveau
+Appartement,Hay Mohammadi,510000,60,3,3,2,Nouveau
+Appartement,Hay Mohammadi,350000,54,2,2,1,Nouveau
+Appartement,Hay Mohammadi,420000,54,3,3,1,Nouveau
+Appartement,Hay Mohammadi,310000,54,3,3,1,Nouveau
+Appartement,Hay Mohammadi,1300000,135,4,3,2,Bon état
+Appartement,Haut Founty,980000,86,1,2,1,Bon état
+Appartement,Hay Mohammadi,660000,62,3,2,2,Nouveau
+Appartement,Hay Mohammadi,580000,55,3,2,1,Bon état
+Maison,Hay Qods,,133,3,5,2,Bon état
+Appartement,Hay Houda,800000,82,4,3,1,Bon état
+Maison,Hay Mohammadi,3200000,108,2,6,3,Nouveau
+Appartement,Hay Mohammadi,,50,1,2,1,Bon état
+Maison,Abattoirs,751600,66,1,1,1,À rénover
+Appartement,Hay Mohammadi,490000,75,3,2,1,Bon état
+Villa,Ben Serguaou,270000,160,5,3,2,Bon état
+Appartement,Hay Salam,650000,64,1,2,1,Bon état
+Appartement,Assaka,750000,71,3,2,1,Bon état
+Appartement,Hay Dakhla,1050900,113,3,2,2,Bon état
+Appartement,Amsernate,1600000,152,4,3,2,Bon état
+Villa,Hay Houda,7500000,330,8,5,3,Nouveau
+Appartement,Hay Houda,380000,56,1,2,1,Nouveau
+Appartement,Haut Founty,,89,1,2,2,Nouveau
+Appartement,Hay Mohammadi,1390000,122,5,2,2,Bon état
+Appartement,Hay Salam,650000,65,2,2,1,Bon état
+Appartement,Hay Mohammadi,610000,62,3,2,1,Nouveau
+Appartement,Hay Mohammadi,720000,96,3,2,2,Nouveau
+Appartement,Hay Mohammadi,900000,90,4,3,2,Nouveau
+Appartement,Al Wifaq,450000,58,1,2,1,Nouveau
+Appartement,Al Wifaq,470000,60,3,2,1,Nouveau
+Appartement,Hay Mohammadi,700000,65,3,2,2,Bon état
+Villa,Taddart,3500000,200,3,3,4,Bon état
+Maison,Zone Industrielle Agadir,,108,1,2,1,Nouveau
+Appartement,Hay Mohammadi,1300000,85,3,2,2,Bon état
+Appartement,Abattoirs,1250000,91,3,2,2,Bon état
+Appartement,Taddart Anza,330000,55,1,2,1,Nouveau
+Appartement,Hay Mohammadi,435000,55,7,3,1,Bon état
+Maison,Riad Salam,1800000,170,3,3,2,Bon état
+Maison,Hay Massira,1700000,90,5,3,3,Bon état
+Maison,Riad Salam,3400000,159,5,5,3,Bon état
+Appartement,Tilila,1300000,151,7,4,2,Bon état
+Appartement,Hay Salam,750000,100,4,2,2,Bon état
+Appartement,Riad Salam,1450000,112,4,3,2,Bon état
+Appartement,Hay Houda,1230000,98,4,3,2,Nouveau
+Appartement,Hay Mohammadi,580000,55,3,2,1,Nouveau
+Appartement,Hay Mohammadi,1200000,109,1,3,2,Nouveau
+Appartement,Hay Salam,,44,2,1,1,Bon état
+Appartement,Hay Salam,730000,74,3,2,1,Bon état
+Maison,Al Wifaq,1950000,350,10,6,4,Bon état
+Appartement,Riad Salam,960000,120,3,3,2,Bon état
+Appartement,Secteur Touristique,,137,8,3,2,Bon état
+Villa,Haut Founty,3900000,240,8,5,4,Bon état
+Appartement,Port,2000000,75,2,1,2,Bon état
+Appartement,Founti,1800000,93,3,2,2,Bon état
+Maison,Tikiouine,800000,50,4,4,4,Bon état
+Villa,Cité Adrar,1650000,81,5,5,5,Nouveau
+Maison,Agadir Oufella,1350000,100,2,4,4,Bon état
+Appartement,Hay Salam,650000,62,3,2,1,Nouveau
+Appartement,Bouargane,1500000,121,2,3,1,Bon état
+Appartement,Hay Najah,2150000,147,5,3,3,Bon état
+Maison,Hay Mohammadi,3100000,128,6,3,3,Bon état
+Appartement,Hay Salam,67000000,65,6,2,1,Bon état
+Appartement,Hay Salam,900000,110,5,4,2,Bon état
+Appartement,Hay Mohammadi,2000000,191,2,3,2,Bon état
+Appartement,Hay Mohammadi,520000,75,3,2,1,Bon état
+Appartement,Tilila,650000,73,2,1,2,Bon état
+Appartement,Hay Salam,36500,50,2,3,1,Nouveau
+Appartement,Hay Mohammadi,880000,80,3,2,2,Nouveau
+Appartement,Ville Nouvelle,1850000,107,2,2,2,Bon état
+Appartement,Hay Dakhla,,56,1,2,1,Bon état
+Appartement,Hay Dakhla,900000,96,1,2,1,Bon état
+Appartement,Extension Dakhla,480000,68,2,2,1,Bon état
+Appartement,Hay Mohammadi,490000,58,4,2,1,Bon état
+Appartement,Hay Qods,,80,2,2,2,Nouveau
+Appartement,Hay Salam,340000,55,2,1,1,Bon état
+Appartement,Anza,1300000,88,4,2,2,Bon état
+Appartement,Abattoirs,1250000,93,6,2,2,Nouveau
+Appartement,Amicales,1150000,126,4,3,2,Bon état
+Villa,Hay Dakhla,3400000,260,18,9,5,Bon état
+Maison,Tikiouine,460000,70,2,3,1,Nouveau
+Appartement,Al Wifaq,480000,58,3,2,1,Nouveau
+Appartement,Hay Mohammadi,920000,97,3,2,2,Nouveau
+Appartement,Hay Mohammadi,630000,64,5,2,1,Nouveau
+Appartement,Agadir Oufella,900000,72,2,2,2,Bon état
+Appartement,Hay Mohammadi,1040000,102,3,2,2,Bon état
+Villa,Ben Serguaou,5500000,500,10,4,4,Nouveau
+Maison,Amicales,2600000,85,10,10,5,Nouveau
+Maison,Abattoirs,225000,209,10,6,5,Nouveau
+Appartement,Hay Mohammadi,600000,64,3,3,2,Bon état
+Appartement,Hay Massira,920000,86,1,2,2,Bon état
+Appartement,Anza,900000,73,4,2,2,Nouveau
+Villa,Hay Najah,4000000,300,6,4,3,Nouveau
+Maison,Ihchach,830000,85,3,2,1,À rénover
+Appartement,Cité Adrar,450000,45,3,2,1,Nouveau
+Appartement,Hay Mohammadi,630000,64,3,2,2,Nouveau
+Villa,Hay Dakhla,2600000,222,6,4,2,Bon état
+Maison,Zone Industrielle Agadir,1800000,120,3,2,2,Bon état
+Appartement,Hay Houda,1150000,123,3,2,2,Nouveau
+Villa,Illigh,1800000,600,10,7,6,Bon état
