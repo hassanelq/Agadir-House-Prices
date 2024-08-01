@@ -1,1 +1,1 @@
-export default ["appartement", "maison", "villa"];
+export default ["appartement", "villa"];

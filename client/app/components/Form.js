@@ -3,12 +3,10 @@
 import React, { useState } from "react";
 import RadioGroup from "./RadioGroup";
 import Select from "./Select";
-import Checkbox from "./Checkerbox";
 import { predictHomePrice } from "../utils/api";
 
 // Data
 import locations from "../data/locations";
-import proprietyOptions from "../data/proprietyOptions";
 import statusOptions from "../data/statusOptions";
 import typesOptions from "../data/typesOptions";
 
@@ -67,7 +65,7 @@ const Form = () => {
         />
       </div>
       <div className="mb-4">
-        <label className="block text-lg mb-2">Rooms</label>
+        <label className="block text-lg mb-2">Pièces</label>
         <RadioGroup
           name="Rooms"
           options={[1, 2, 3, 4, 5, 6]}
@@ -76,7 +74,7 @@ const Form = () => {
         />
       </div>
       <div className="mb-4">
-        <label className="block text-lg mb-2">Bedrooms</label>
+        <label className="block text-lg mb-2">Chambres</label>
         <RadioGroup
           name="Bedrooms"
           options={[1, 2, 3, 4]}
@@ -85,7 +83,7 @@ const Form = () => {
         />
       </div>
       <div className="mb-4">
-        <label className="block text-lg mb-2">Bathrooms</label>
+        <label className="block text-lg mb-2">Salles de bains</label>
         <RadioGroup
           name="Bathrooms"
           options={[1, 2, 3, 4]}
@@ -94,15 +92,15 @@ const Form = () => {
         />
       </div>
       <div className="mb-4">
-        <label className="block text-lg mb-2">Location</label>
+        <label className="block text-lg mb-2">Quartier</label>
         <Select value={location} onChange={setLocation} options={locations} />
       </div>
       <div className="mb-4">
-        <label className="block text-lg mb-2">Type</label>
+        <label className="block text-lg mb-2">Type de bien</label>
         <Select value={type} onChange={setType} options={typesOptions} />
       </div>
       <div className="mb-4">
-        <label className="block text-lg mb-2">Status</label>
+        <label className="block text-lg mb-2">Etat</label>
         <Select value={status} onChange={setStatus} options={statusOptions} />
       </div>
 
@@ -110,7 +108,7 @@ const Form = () => {
         className="w-full bg-green-600 text-white py-3 rounded transition duration-200 hover:bg-green-700"
         onClick={handleSubmit}
       >
-        Estimate Price
+        Prédire le prix
       </button>
 
       {/* <button
@@ -118,7 +116,7 @@ const Form = () => {
         type="submit"
         onClick={handleSubmit}
       >
-        Estimate Price
+        Prédire le prix
       </button> */}
 
       {loading && (
