@@ -18,12 +18,8 @@ const Form = () => {
   const [bathrooms, setBathrooms] = useState(2);
   const [bedrooms, setBedrooms] = useState(2);
   const [location, setLocation] = useState(locations[0]);
-  const [jardin, setJardin] = useState(false);
-  const [cuisineEquipped, setCuisineEquipped] = useState(false);
-  const [piscine, setPiscine] = useState(false);
   const [type, setType] = useState(typesOptions[0]);
   const [status, setStatus] = useState(statusOptions[0]);
-  const [propriety, setPropriety] = useState(proprietyOptions[0]);
   const [estimatedPrice, setEstimatedPrice] = useState("");
   const [loading, setLoading] = useState(false);
 
@@ -34,14 +30,10 @@ const Form = () => {
       location,
       type,
       status,
-      property_state: propriety,
       area,
       rooms,
       bedrooms,
       bathrooms,
-      jardin: jardin ? 1 : 0,
-      piscine: piscine ? 1 : 0,
-      cuisine_equiped: cuisineEquipped ? 1 : 0,
     };
 
     try {
@@ -102,24 +94,6 @@ const Form = () => {
         />
       </div>
       <div className="mb-4">
-        <label className="block text-lg mb-2">Features</label>
-        <Checkbox
-          label="Jardin"
-          checked={jardin}
-          onChange={() => setJardin(!jardin)}
-        />
-        <Checkbox
-          label="Cuisine Équipée"
-          checked={cuisineEquipped}
-          onChange={() => setCuisineEquipped(!cuisineEquipped)}
-        />
-        <Checkbox
-          label="Piscine"
-          checked={piscine}
-          onChange={() => setPiscine(!piscine)}
-        />
-      </div>
-      <div className="mb-4">
         <label className="block text-lg mb-2">Location</label>
         <Select value={location} onChange={setLocation} options={locations} />
       </div>
@@ -130,14 +104,6 @@ const Form = () => {
       <div className="mb-4">
         <label className="block text-lg mb-2">Status</label>
         <Select value={status} onChange={setStatus} options={statusOptions} />
-      </div>
-      <div className="mb-4">
-        <label className="block text-lg mb-2">Propriety</label>
-        <Select
-          value={propriety}
-          onChange={setPropriety}
-          options={proprietyOptions}
-        />
       </div>
 
       <button
