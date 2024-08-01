@@ -139,12 +139,22 @@ const Form = () => {
           options={proprietyOptions}
         />
       </div>
+
       <button
         className="w-full bg-green-600 text-white py-3 rounded transition duration-200 hover:bg-green-700"
         onClick={handleSubmit}
       >
         Estimate Price
       </button>
+
+      {/* <button
+        className="relative w-fit flex justify-center items-center m-auto mt-3 px-5 py-3 text-center text-lg sm:text-xl leading-5 font-medium text-[#d4d4d4] box-border shadow-[0px_1px_1px_rgba(0,0,0,0.04),0px_2px_3px_rgba(0,0,0,0.12),0px_6px_9px_rgba(0,0,0,0.6)] rounded-full bg-gradient-to-b from-[rgba(255,255,255,0.05)] to-[rgba(255,255,255,0)] bg-[rgba(0,0,0,0.1)] border border-[rgba(255,255,255,0.1)] transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-[rgba(255,255,255,0.08)]"
+        type="submit"
+        onClick={handleSubmit}
+      >
+        Estimate Price
+      </button> */}
+
       {loading && (
         <div className="flex justify-center mt-4">
           <div className="loader ease-linear rounded-full border-4 border-t-4 border-gray-400 h-12 w-12"></div>

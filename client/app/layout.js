@@ -1,7 +1,8 @@
-import { Merriweather_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
+import Footer from "./components/Footer";
 
-const Merriweather = Merriweather_Sans({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Agadir house prices",
@@ -11,7 +12,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={Merriweather.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
