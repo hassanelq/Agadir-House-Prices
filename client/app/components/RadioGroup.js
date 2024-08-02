@@ -8,7 +8,7 @@ const RadioGroup = ({ name, options, selectedValue, onChange }) => {
           key={option}
           className={`flex-1 py-2 cursor-pointer flex justify-center items-center z-10 font-semibold text-sm rounded-full transition-all duration-200 ${
             selectedValue === option
-              ? "bg-green-600 text-white"
+              ? "bg-gray-600 text-white"
               : "bg-gray-200 text-[#4b4b4b]"
           }`}
         >
