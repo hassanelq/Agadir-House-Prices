@@ -10,6 +10,8 @@ import locations from "../data/locations";
 import statusOptions from "../data/statusOptions";
 import typesOptions from "../data/typesOptions";
 
+import CircleAnimation from "./CircleAnimation";
+
 const Form = () => {
   const [area, setArea] = useState(100);
   const [rooms, setRooms] = useState(2);
@@ -49,85 +51,113 @@ const Form = () => {
   };
 
   return (
-    <div className="p-8 bg-white shadow-md rounded-lg max-w-md mx-auto">
-      <h2 className="text-2xl font-semibold mb-4">Estimate Home Price</h2>
-      <div className="mb-4">
-        <label className="block text-lg mb-2">
+    <div className="w-full md:w-[50%]">
+      <h2 className="py-[1rem] text-[2rem] font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#d4d4d4,_#797979)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
+        Estimate Home Price
+      </h2>
+      <div className="flex py-3">
+        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[40%]">
           Area (m<sup>2</sup>)
         </label>
         <input
           value={area}
-          className="area p-2 w-full mb-4 border rounded bg-gray-200 text-black"
+          className="border rounded bg-gray-200 text-black px-3 py-2 w-full"
           onChange={(e) => setArea(e.target.value)}
           type="number"
           max={1000}
           min={40}
         />
       </div>
-      <div className="mb-4">
-        <label className="block text-lg mb-2">Pièces</label>
+      <div className="flex py-3">
+        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[40%]">
+          Pièces
+        </label>
         <RadioGroup
           name="Rooms"
           options={[1, 2, 3, 4, 5, 6]}
           selectedValue={rooms}
           onChange={setRooms}
+          className="w-full px-3 py-2"
         />
       </div>
-      <div className="mb-4">
-        <label className="block text-lg mb-2">Chambres</label>
+      <div className="flex py-3">
+        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[40%]">
+          Chambres
+        </label>
         <RadioGroup
           name="Bedrooms"
           options={[1, 2, 3, 4]}
           selectedValue={bedrooms}
           onChange={setBedrooms}
+          className="w-full px-3 py-2"
         />
       </div>
-      <div className="mb-4">
-        <label className="block text-lg mb-2">Salles de bains</label>
+      <div className="flex py-3">
+        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[40%]">
+          Salles de bains
+        </label>
         <RadioGroup
           name="Bathrooms"
           options={[1, 2, 3, 4]}
           selectedValue={bathrooms}
           onChange={setBathrooms}
+          className="w-full  px-3 py-2"
         />
       </div>
-      <div className="mb-4">
-        <label className="block text-lg mb-2">Quartier</label>
-        <Select value={location} onChange={setLocation} options={locations} />
+      <div className="flex py-3">
+        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[40%]">
+          Quartier
+        </label>
+        <Select
+          value={location}
+          onChange={setLocation}
+          options={locations}
+          className="w-full"
+        />
       </div>
-      <div className="mb-4">
-        <label className="block text-lg mb-2">Type de bien</label>
-        <Select value={type} onChange={setType} options={typesOptions} />
+      <div className="flex py-3">
+        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[40%]">
+          Type de bien
+        </label>
+        <Select
+          value={type}
+          onChange={setType}
+          options={typesOptions}
+          className="w-full"
+        />
       </div>
-      <div className="mb-4">
-        <label className="block text-lg mb-2">Etat</label>
-        <Select value={status} onChange={setStatus} options={statusOptions} />
+      <div className="flex py-3">
+        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[40%]">
+          Etat
+        </label>
+        <Select
+          value={status}
+          onChange={setStatus}
+          options={statusOptions}
+          className="w-full"
+        />
       </div>
 
-      <button
-        className="w-full bg-green-600 text-white py-3 rounded transition duration-200 hover:bg-green-700"
-        onClick={handleSubmit}
-      >
-        Prédire le prix
-      </button>
-
-      {/* <button
-        className="relative w-fit flex justify-center items-center m-auto mt-3 px-5 py-3 text-center text-lg sm:text-xl leading-5 font-medium text-[#d4d4d4] box-border shadow-[0px_1px_1px_rgba(0,0,0,0.04),0px_2px_3px_rgba(0,0,0,0.12),0px_6px_9px_rgba(0,0,0,0.6)] rounded-full bg-gradient-to-b from-[rgba(255,255,255,0.05)] to-[rgba(255,255,255,0)] bg-[rgba(0,0,0,0.1)] border border-[rgba(255,255,255,0.1)] transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-[rgba(255,255,255,0.08)]"
-        type="submit"
-        onClick={handleSubmit}
-      >
-        Prédire le prix
-      </button> */}
+      <div className="flex justify-end">
+        <button
+          className="relative w-[71%] flex justify-center items-center mt-3 px-5 py-3 text-center text-lg sm:text-xl leading-5 font-medium text-[#d4d4d4] box-border shadow-[0px_1px_1px_rgba(0,0,0,0.04),0px_2px_3px_rgba(0,0,0,0.12),0px_6px_9px_rgba(0,0,0,0.6)] rounded-full bg-gradient-to-b from-[rgba(255,255,255,0.05)] to-[rgba(255,255,255,0)] bg-[rgba(0,0,0,0.1)] border border-[rgba(255,255,255,0.1)] transition duration-300 ease-in-out hover:bg-[rgba(255,255,255,0.08)]"
+          type="submit"
+          onClick={handleSubmit}
+        >
+          Prédire le prix
+        </button>
+      </div>
 
       {loading && (
-        <div className="flex justify-center mt-4">
-          <div className="loader ease-linear rounded-full border-4 border-t-4 border-gray-400 h-12 w-12"></div>
+        <div className="flex justify-end pt-10 pr-16">
+          {" "}
+          <CircleAnimation />{" "}
         </div>
       )}
       {estimatedPrice && (
         <div
           id="uiEstimatedPrice"
-          className="mt-4 text-2xl font-bold text-center p-2 bg-gray-100 rounded"
+          className=" text-[3rem] font-bold text-right pt-6 text-[#e5e7eb]"
         >
           <h1>{formatPrice(estimatedPrice)} DH</h1>
         </div>

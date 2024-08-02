@@ -1,7 +1,7 @@
 const Select = ({ value, onChange, options }) => {
   return (
     <select
-      className="location text-black p-2 w-full mb-4 rounded bg-gray-200"
+      className="location text-black w-full px-3 py-2 rounded bg-gray-200"
       value={value}
       onChange={(e) => onChange(e.target.value)}
     >
