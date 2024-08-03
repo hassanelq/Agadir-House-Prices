@@ -5,8 +5,9 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Agadir house prices",
-  description: "house prices prediction in Agadir using machine learning",
+  title: "Estimation des Prix Immobiliers à Agadir",
+  description:
+    "Outil avancé de prédiction des prix immobiliers à Agadir basé sur Machine Learning (Regression).",
 };
 
 export default function RootLayout({ children }) {
