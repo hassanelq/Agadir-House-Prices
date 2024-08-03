@@ -54,7 +54,7 @@ const Form = () => {
       <h2 className="py-[1rem] text-[2rem] text-center md:text-left font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#d4d4d4,_#797979)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
         Prédire le prix
       </h2>
-      <div className="flex py-3">
+      <div className="flex py-3 items-center">
         <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[45%]">
           Superficie (m<sup>2</sup>)
         </label>
@@ -67,7 +67,7 @@ const Form = () => {
           min={40}
         />
       </div>
-      <div className="flex py-3">
+      <div className="flex py-3 items-center">
         <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[45%]">
           Pièces
         </label>
@@ -79,7 +79,7 @@ const Form = () => {
           className="w-full px-3 py-2"
         />
       </div>
-      <div className="flex py-3">
+      <div className="flex py-3 items-center">
         <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[45%]">
           Chambres
         </label>
@@ -91,7 +91,7 @@ const Form = () => {
           className="w-full px-3 py-2"
         />
       </div>
-      <div className="flex py-3">
+      <div className="flex py-3 items-center">
         <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[45%]">
           Salles de bains
         </label>
@@ -103,7 +103,7 @@ const Form = () => {
           className="w-full  px-3 py-2"
         />
       </div>
-      <div className="flex py-3">
+      <div className="flex py-3 items-center">
         <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[45%]">
           Quartier
         </label>
@@ -114,7 +114,7 @@ const Form = () => {
           className="w-full "
         />
       </div>
-      <div className="flex py-3">
+      <div className="flex py-3 items-center">
         <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[45%]">
           Type de bien
         </label>
@@ -125,7 +125,7 @@ const Form = () => {
           className="w-full"
         />
       </div>
-      <div className="flex py-3">
+      <div className="flex py-3 items-center">
         <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[45%]">
           Etat
         </label>
