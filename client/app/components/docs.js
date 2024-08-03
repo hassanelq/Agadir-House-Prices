@@ -40,7 +40,7 @@ const steps = [
 const Docs = () => {
   return (
     <div className="text-[#e5e7eb] w-full md:w-[50%] opacity-75">
-      <h2 className="py-[1rem] text-[2rem] font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#d4d4d4,_#797979)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
+      <h2 className="py-[1rem] text-[1.8rem] md:text-[2.2rem] text-center md:text-left font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#d4d4d4,_#797979)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
         Comment ça marche ?
       </h2>
       <ol>
@@ -56,10 +56,10 @@ const Docs = () => {
           </li>
         ))}
       </ol>
-      <h2 className="py-[1rem] text-[2rem] font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#d4d4d4,_#797979)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
+      <h2 className="py-[1rem] text-[1.7rem] md:text-[2rem] text-center md:text-left font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#d4d4d4,_#797979)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
         Remarque :
       </h2>
-      <p className="text-[1.2rem]">
+      <p className="text-[1.2rem] text-center md:text-left">
         La base de données est actuellement petite, ce qui peut parfois affecter
         la précision des prédictions.
       </p>

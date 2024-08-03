@@ -52,11 +52,11 @@ const Form = () => {
 
   return (
     <div className="w-full md:w-[50%]">
-      <h2 className="py-[1rem] text-[2rem] font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#d4d4d4,_#797979)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
-        Estimate Home Price
+      <h2 className="py-[1rem] text-[2rem] text-center md:text-left font-semibold text-transparent !bg-clip-text [background:linear-gradient(90deg,_#d4d4d4,_#797979)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
+        Prédire le prix
       </h2>
       <div className="flex py-3">
-        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[40%]">
+        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[45%]">
           Area (m<sup>2</sup>)
         </label>
         <input
@@ -69,7 +69,7 @@ const Form = () => {
         />
       </div>
       <div className="flex py-3">
-        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[40%]">
+        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[45%]">
           Pièces
         </label>
         <RadioGroup
@@ -81,7 +81,7 @@ const Form = () => {
         />
       </div>
       <div className="flex py-3">
-        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[40%]">
+        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[45%]">
           Chambres
         </label>
         <RadioGroup
@@ -93,7 +93,7 @@ const Form = () => {
         />
       </div>
       <div className="flex py-3">
-        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[40%]">
+        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[45%]">
           Salles de bains
         </label>
         <RadioGroup
@@ -105,7 +105,7 @@ const Form = () => {
         />
       </div>
       <div className="flex py-3">
-        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[40%]">
+        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[45%]">
           Quartier
         </label>
         <Select
@@ -116,7 +116,7 @@ const Form = () => {
         />
       </div>
       <div className="flex py-3">
-        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[40%]">
+        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[45%]">
           Type de bien
         </label>
         <Select
@@ -127,7 +127,7 @@ const Form = () => {
         />
       </div>
       <div className="flex py-3">
-        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[40%]">
+        <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[45%]">
           Etat
         </label>
         <Select
@@ -155,11 +155,14 @@ const Form = () => {
         </div>
       )}
       {estimatedPrice && (
-        <div
-          id="uiEstimatedPrice"
-          className=" text-[3rem] font-bold text-right pt-6 text-[#e5e7eb]"
-        >
-          <h1>{formatPrice(estimatedPrice)} DH</h1>
+        <div id="uiEstimatedPrice" className="text-right pt-6 text-[#e5e7eb]">
+          <h1 className="text-[3rem] font-bold">
+            {formatPrice(estimatedPrice)} DH
+          </h1>
+          <p className="text-[1.4rem]">
+            La base de données est actuellement petite, ce qui peut parfois
+            affecter la précision des prédictions.
+          </p>
         </div>
       )}
     </div>

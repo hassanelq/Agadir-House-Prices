@@ -27,6 +27,9 @@ const Footer = () => {
   ];
   return (
     <footer className="w-full flex flex-col items-center justify-center p-8">
+      <div className="w-full">
+        <div className="border-2 border-gray-400 opacity-25 rounded-full mb-4 mx-6 md:mx-12"></div>
+      </div>
       <div className="flex items-center justify-center py-8 gap-10 ">
         {socials.map(({ href, label, icon }) => (
           <Link key={label} href={href} target="_blank">
@@ -40,7 +43,6 @@ const Footer = () => {
         ))}
       </div>
       <Image src={HE_Logo} height="auto" className="py-8" alt="HE Logo" />
-
       <p className="text-[#838383] py-8 text-center">
         All rights reserved. © Copyright Hassan EL QADI 2024
       </p>
