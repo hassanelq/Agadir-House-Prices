@@ -36,3 +36,10 @@ Welcome to the Agadir House Prices Prediction tool! This project leverages machi
    - **User Feedback**: The estimated price is displayed on the web interface, allowing users to see predictions immediately.
 
 By following these steps, we provide users with a powerful tool for estimating real estate prices in Agadir, leveraging the latest advancements in machine learning and data science.
+
+
+## Contact
+Portfolio: https://elqadi.me
+
+LinkedIn: [Hassan EL QADI](https://www.linkedin.com/in/el-qadi/)
+
