@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import RadioGroup from "./RadioGroup";
 import Select from "./Select";
 import { predictHomePrice } from "../utils/api";
-
 // Data
 import locations from "../data/locations";
 import statusOptions from "../data/statusOptions";
@@ -13,13 +12,13 @@ import typesOptions from "../data/typesOptions";
 import CircleAnimation from "./CircleAnimation";
 
 const Form = () => {
-  const [area, setArea] = useState(100);
-  const [rooms, setRooms] = useState(2);
+  const [area, setArea] = useState(75);
+  const [rooms, setRooms] = useState(4);
   const [bathrooms, setBathrooms] = useState(2);
-  const [bedrooms, setBedrooms] = useState(2);
-  const [location, setLocation] = useState(locations[0]);
+  const [bedrooms, setBedrooms] = useState(3);
+  const [location, setLocation] = useState(locations[18]);
   const [type, setType] = useState(typesOptions[0]);
-  const [status, setStatus] = useState(statusOptions[0]);
+  const [status, setStatus] = useState(statusOptions[1]);
   const [estimatedPrice, setEstimatedPrice] = useState("");
   const [loading, setLoading] = useState(false);
 
@@ -57,11 +56,11 @@ const Form = () => {
       </h2>
       <div className="flex py-3">
         <label className="block text-[1.2rem] text-[#e5e7eb] opacity-75 w-[45%]">
-          Area (m<sup>2</sup>)
+          Superficie (m<sup>2</sup>)
         </label>
         <input
           value={area}
-          className="border rounded bg-gray-200 text-black px-3 py-2 w-full"
+          className="border rounded-full bg-gray-200 text-black px-4 py-2 w-full"
           onChange={(e) => setArea(e.target.value)}
           type="number"
           max={1000}
@@ -74,7 +73,7 @@ const Form = () => {
         </label>
         <RadioGroup
           name="Rooms"
-          options={[1, 2, 3, 4, 5, 6]}
+          options={[1, 2, 3, 4, 5, 6, 7, 8]}
           selectedValue={rooms}
           onChange={setRooms}
           className="w-full px-3 py-2"
@@ -86,7 +85,7 @@ const Form = () => {
         </label>
         <RadioGroup
           name="Bedrooms"
-          options={[1, 2, 3, 4]}
+          options={[1, 2, 3, 4, 5]}
           selectedValue={bedrooms}
           onChange={setBedrooms}
           className="w-full px-3 py-2"
@@ -112,7 +111,7 @@ const Form = () => {
           value={location}
           onChange={setLocation}
           options={locations}
-          className="w-full"
+          className="w-full "
         />
       </div>
       <div className="flex py-3">
@@ -159,7 +158,7 @@ const Form = () => {
           <h1 className="text-[3rem] font-bold">
             {formatPrice(estimatedPrice)} DH
           </h1>
-          <p className="text-[1.4rem]">
+          <p className="text-[1.1rem] ml-8 md:ml-16">
             La base de données est actuellement petite, ce qui peut parfois
             affecter la précision des prédictions.
           </p>

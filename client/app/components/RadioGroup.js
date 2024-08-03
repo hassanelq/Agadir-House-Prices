@@ -2,7 +2,7 @@ import React from "react";
 
 const RadioGroup = ({ name, options, selectedValue, onChange }) => {
   return (
-    <div className="relative flex items-center rounded-full bg-white text-black overflow-hidden border border-gray-300 w-full">
+    <div className="relative flex items-center justify-center rounded-full bg-white text-black overflow-hidden border border-gray-300 w-full">
       {options.map((option) => (
         <label
           key={option}
