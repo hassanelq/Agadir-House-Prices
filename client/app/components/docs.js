@@ -62,10 +62,10 @@ const Docs = () => {
             key={step.number}
             className="flex items-center py-[0.4rem] text-[1rem]"
           >
-            <div className="flex-shrink-0 pr-[0.8rem] font-bold text-[3.5rem] w-[3.5rem] text-center">
+            <div className="flex-shrink-0 pr-[0.4rem]  md:pr-[0.8rem] font-bold text-[3.5rem] w-[3.5rem] text-center">
               {step.number}
             </div>
-            <div className="flex-grow px-6 py-3 rounded-[32px] border-[0px] bg-[radial-gradient(100%_100%_at_50%_0%,_rgba(255,_255,_255,_0.20)_0%,_rgba(255,_255,_255,_0.02)_100%)] [box-shadow:0px] backdrop-filter">
+            <div className="flex-grow px-4 md:px-6 py-3 rounded-[32px] border-[0px] bg-[radial-gradient(100%_100%_at_50%_0%,_rgba(255,_255,_255,_0.20)_0%,_rgba(255,_255,_255,_0.02)_100%)] [box-shadow:0px] backdrop-filter">
               <b>{step.title}</b>: {step.description}
             </div>
           </li>
