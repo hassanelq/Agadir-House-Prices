@@ -46,7 +46,11 @@ const Form = () => {
   };
 
   const formatPrice = (price) => {
-    return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "  ");
+    // Round to the nearest thousand
+    const roundedPrice = Math.round(price / 1000) * 1000;
+
+    // Convert to string and format with spaces
+    return roundedPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
   };
 
   return (
